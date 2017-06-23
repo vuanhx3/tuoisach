@@ -1,0 +1,350 @@
+/*-------------------------------- --left-------------------------------------  */
+        #box_sanphammoi .left-product{width: 23%; float: left;}
+        .box-left {
+            float: left;
+            height: auto;
+            width: 100%;
+            margin-bottom:40px;
+        }
+        .tittle-box-left {
+            background:#197D07;
+            width: 100%;
+        }
+        .tittle-box-left h2{
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 15px;
+        line-height: 50px;
+        font-weight: bold;
+        padding-left: 18px;
+        text-transform: uppercase;
+        }
+
+
+
+        /*----------------------------- phan css cho phan menu danh muc -----------------------------*/
+        #accordian {
+        	background: #333333;
+        	width: 100%;
+        	color: white;
+        }
+
+        #accordian .catalog-main .catalog-sub {
+        	padding: 18px;
+        	list-style-type: none;
+        	border-bottom: 1px solid #acacac;
+        }
+        #accordian a {
+        	font-size: 15px;
+        	line-height: 34px;
+        	padding: 0 10px;
+        	color: #ccc ;
+        }
+        #accordian i{float: right; cursor: pointer; line-height: 34px; }
+
+        #accordian ul ul li {border-bottom:1px solid #555555; }
+        #accordian ul ul li:last-child{border-bottom: none;}
+        #accordian ul ul li a {
+        	color: #ccc;
+        	text-decoration: none;
+        	font-size: 13px;
+        	line-height: 37px;
+        	display: block;
+        	padding: 0 35px;
+        	/*transition for smooth hover animation*/
+        	transition: all 0.15s;
+        }
+
+        #accordian ul ul li a:hover {
+        	background: #003545;
+        	color: #ffffff;
+        	border-left: 5px solid #64AF45;
+        }
+
+        #accordian ul ul {
+        	display: none;
+        }
+        /*----------------------------- phan css cho phan menu danh muc -----------------------------*/
+
+
+
+
+        /*------------------------------ phan css tim kiem tp theo gia ------------------------------*/
+        .content-box {
+            float: left;
+            height: auto;
+            padding: 10px;
+            margin-top: 2px;
+            width: 100%;
+            box-shadow: 0 0 10px #ccc;
+        }
+        .t-form select {
+            background:  #FFFFFF;
+            border: 1px solid #BBBBBB;
+            border-radius: 2px;
+            box-shadow: none;
+            color: #292929;
+            padding: 6px 6px;
+            width: 80%;
+        }
+        .t-form select option{
+        	padding: 5px 5px;
+        }
+
+        .t-form label {
+            cursor: pointer;
+            font-weight: normal;
+        }
+        .t-form p {
+            margin: 0;
+            padding: 0;
+        }
+        .t-form .form-row {
+        	width: 95%;
+        	height: auto;
+            clear: both;
+            padding: 13px 0;
+            margin:0 auto;
+            position: relative;
+        }
+        .t-form .form-label {
+            display: inline;
+            float: left;
+            padding-top: 6px;
+            text-shadow: 0 1px 0 #FFFFFF;
+            width: 32%;
+        }
+        .t-form .form-item {
+            display: inline;
+            float: left;
+
+            padding: 0px 2px;
+            position: relative;
+            width: 60%;
+        }
+        .t-form .form-item select{margin-bottom: 6px;}
+        .t-form .form-submit {
+            display: inline;
+            float: right;
+            position: relative;
+            text-align: right;
+        }
+        .t-form .form-row span{padding: 5px 2px;}
+        .t-form .button
+        {
+            background: #197D07 !important;
+            border-radius: 3px;
+        	border:none;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+            font-size: 16px;
+            font-weight: bold;
+            height: 40px !important;
+            line-height: 40px;
+            padding: 0 20px !important;
+            width: auto !important;
+        }
+        /*-------------------------------- phan css tim kiem tp theo gia --------------------------------*/
+
+
+        /*--------------------------- phan css cho box meo vat va ki nang ---------------------------*/
+        a{text-decoration: none;}
+        span{padding-bottom:10px;}
+        .col{width: 100%; font-family: Helvetica; }
+        .panel panel-default {width: 100%;}
+        .box_kinang .panel-heading{background: #197D07; line-height: 50px; width: 100%;}
+        .panel-heading h2{    
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            padding-left: 18px;
+            text-transform: uppercase;
+            margin: 0px!important; 
+         }
+        .panel-body{box-shadow: 0 0 10px #ccc; } 
+        .new_man{width: 100%; }
+        .panel-body .new_main ul.demo {width: 90%; padding: 0px!important; margin: 0px auto; overflow: hidden; height: 400px!important; }
+        .panel-body .new_main ul.demo li{list-style: none; width: 100%; padding:10px 2px;}
+        .blog_img{width: 100%;}
+        .blog_detail{width: 100%;}
+        .panel-body .new_main ul.demo li img{width: 100%;height: 150px; margin:0px 0%;}
+        .blog_detail h3{padding-bottom: 10px; margin-top:7px;}
+        .blog_detail h3 a{ line-height: 20px; padding: 0px; font-size: 16px;text-decoration: none;color: #333;font-weight: 600;}
+        .blog_detail p{ font-size: 14px; color: #acacac; margin-top: 5px;}
+        .blog_detail span { width: 100%; font-size: 14px; color: #acacac;}
+
+        /* phan footer next prev */
+        .panel_footer {width: 100%; height: 40px; background-color: #197D07; border-top: 1px solid #ddd;
+        }
+
+        .panel_footer ul { width: 30%; padding:10px; list-style: none;
+        }
+        .panel_footer ul li a{color: #ffffff; font-size: 20px; padding:0px 5px;}
+        .pull-right { float: right!important;}
+
+        .pagination { display: inline-block; padding-left: 0; margin: 0px 0; border-radius: 4px;}
+        .pagination>li {
+            display: inline;
+        }
+        
+
+        /*------------------------------ phan css cho box meo vat va ki nang ------------------------------*/
+
+
+
+/*-------------------------------------------content---------------------------------------  */
+     #box_sanphammoi .content-product {width: 75%; float: right; }
+     #box_sanphammoi .content-product #box-product-new-left{width: 68%; float: left;}
+     #box_sanphammoi .content-product #box_product_most-right{width: 30%; float: right; box-shadow: 0 0 10px #ccc;}
+     #box-product-new-left .breaking_new_search{width: 100%; }
+     #box-product-new-left .boxProduct_mostNew{width: 100%; margin-top: 12px;}
+     #box_sanphammoi .content-product #box-product-new-left .boxProduct_mostNew #box_center_new{width: 100%;}
+     .tittle-box-center {
+            font-weight: normal;
+            line-height: 30px;
+            text-transform: uppercase;
+            width: 100%;
+            float: left;
+        }
+        .tittle-box-center p{text-transform: none; padding: 3px 0;}
+        .tittle-box-center h2{color: #197D07; font-size: 1.3em; margin-bottom: 10px;}
+        .tittle-box-center a{
+           color: #197D07;
+           margin-left: 25px;
+           text-decoration: none;
+          display: inline-block;
+          position: relative;
+          font-weight: bold;
+          padding: 0 0 5px 0;
+        }
+        .tittle-box-center a:after{
+          content: '';
+          position: absolute;
+          height: 2px;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          visibility: hidden;
+          background-color: #eb5055;
+          -webkit-transition: all .1s ease;
+          transition: all 0.3s ease;  
+          -webkit-transform: scaleX(0);
+          -ms-transform: scaleX(0);
+          transform: scaleX(0);
+        }
+        .tittle-box-center a:hover:after {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+          transform: scaleX(1);
+        }
+    /*phan css box san pham */
+    sup{text-decoration: underline;}
+    .box-content-product{width: 100%; float: left;}
+    .boxProduct_mostNew #box_center_new .box-content-product .product_item{width: 50%; float:left; padding: 5px 5px; box-shadow: 0 0 1px #ccc;}
+    #box_center_new .box-content-product .product_item .product_img{width: 75%; margin:10px auto; margin-top: 20px; position: relative; }
+    
+
+    /*----------------------phan css chung cho product_item .product_img----------------------*/
+    .product_item .product_img .over {
+      -o-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -webkit-transition: -webkit-transform 1s;
+      background-color: hsla(0,0%,100%,.6);
+      opacity: 0.2;
+      cursor: default;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 10;
+      opacity: 0;
+    }
+
+    .product_item .product_img .over:hover {
+      opacity: 1;
+      -o-transition-duration: 1s;
+      -moz-transition-duration: 1s;
+      -webkit-transition: -webkit-transform 1s;
+      -webkit-box-shadow: 0px 0px 2px #000;
+      -moz-box-shadow: 0px 0px 2px #000;
+      box-shadow: 0px 0px 2px #000;
+      transition: 0.2s;
+    }
+    
+    .product_item .product_img img{width: 100%; }
+    .product_item .price {width: 100%; padding:5px 2px; font-size: 18px;  text-align: center;}
+    .product_item .price .price-old{text-decoration: line-through; color: #acacac;}
+    .product_item .price span{padding:0px 3px; color: red;}
+    
+
+    
+    .product_item a.button:hover{background:#197D07; opacity: 0.7; color: #ffffff;}
+    .product_item .action_pd {width: 100%; margin-top: 10px; padding:5px 0 25px; text-align: center; font-size: 18px; }
+    .product_item .action_pd a{color: #444444;}
+    .product_item .action_pd a:hover{color:#197D07;}
+    /*----------------------phan css chung cho product_item .product_img----------------------*/
+
+
+    /*----------------------phan css hieu ung hover vao hinh thuc pham----------------------*/
+    .product_img:hover .product-item__background {display: block;}
+    .product-item__background {position: absolute;display: none;width: 100%;height: 100%;background-color: hsla(0,0%,100%,.6);}
+    .product-item__buttons {position: absolute;top: 50%;margin-top: -42.5px;left: 50%;margin-left: -50px;width: 140px;height: 95px;}
+    .product-item__buttons button.add_cart { display: inline-block; border: none; outline: none; cursor: pointer; height: 36px; width: 110px; line-height: 36px; text-align: center; text-decoration: none; border-radius: 18px; background-clip: padding-box;}
+    .product-item__buttons a {
+        display: inline-block;
+        height: 36px;
+        width: 110px;
+        line-height: 36px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 18px;
+        background-clip: padding-box;
+    }
+    .product-item__buttons a:hover{color: #fff;}
+    .product-item__add {
+        margin-bottom: 5px;
+        color: #fff;
+        background-color: #197d07;
+    }
+    .product-item__more {
+        color: #fff;
+        background-color: rgba(37,37,37,.7);
+    }
+        /*----------------------phan css hieu ung hover vao hinh thuc pham----------------------*/
+
+
+
+
+
+    /*------------------------------css cho box thuc pham noi bat------------------------------*/
+    #box_product_most-right .box_most_right {width: 100%; float:right;}
+    #box_product_most-right .box_most_right-online {width: 100%; float: right;}
+    #box_product_most-right .title i{margin-left: 15px;}
+    #box_product_most-right .box_most_right .highlight .product_item{width: 100%; padding:10px; border-bottom: 1px solid #ccc;}
+    #box_product_most-right .box_most_right .highlight .product_item:last-child{border-bottom: none;}
+    #box_product_most-right .box_most_right .highlight .product_img {width: 70%; margin:10px auto; margin-top: 20px; position: relative;}
+    #box_product_most-right .box_most_right .highlight .product_img img{ width: 100%; }
+    /*------------------------------css cho box thuc pham noi bat------------------------------*/
+   
+
+    #box_product_most-right .highlight .product_item .action_pd {width: 100%; margin-top: 10px; padding:5px; text-align: center; font-size: 16px; }
+
+    /* phan css banner1 */
+    .banner-pd1{width: 100%; margin-top: 30px; float: left;}
+    .banner_img1{width: 50%; float: left; padding: 0 1%;}
+    .banner_img1 img{width: 100%;  height: 230px;}
+
+    /* phan css ho tro truc tuyen */
+    .box_most_right-online .highlight {padding:10px;width: 100%;}
+    .box_most_right-online .highlight .sp_1, .sp_2, .sp_mail{padding-left: 30px; margin-left: 15px; font-size: 13px; padding-top: 10px;}
+    .sp_1, .sp_2 {background: url(../images/dt-mau.png) left center no-repeat; background-size: 19px;}
+    .sp_mail{background: url(../images/mail-mau.png) left center no-repeat; background-size: 19px;}
+
+    .box_most_right-online .highlight .sp_1 p:first-child {font-weight: bold; font-size: 15px;}
+    .box_most_right-online .highlight .sp_2 p:first-child {font-weight: bold; font-size: 15px;}
+    .box_most_right-online .highlight .sp_mail p:first-child {font-weight: bold; font-size: 15px;}
+    .box_most_right-online .highlight span{width:100%;color: #acacac; font-size: 14px;}
+
+

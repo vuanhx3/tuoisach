@@ -1,0 +1,53 @@
+
+#popup {
+    height: auto;
+    left: 50%;
+    margin-left: -200px;
+    position: fixed;
+    top: 150px;
+    width: 400px;
+    z-index: 100;
+}
+#popup h3 {
+    background: #69bd43 none repeat scroll 0 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-align: left;
+    width: 100%;
+}
+
+#popup h3 span {
+    color: #ffffff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    float: right;
+    cursor: pointer;
+}
+
+#popup #main {
+    background: #e4e4e4 none repeat scroll 0 0;
+    height: auto;
+    padding: 15px 5px;
+    width: 100%;
+}
+#popup #main img {
+    float: left;
+    height: 150px;
+    width: 170px;
+}
+#popup #main #message {
+    font-size: 14px;
+    height: auto;
+    padding: 15px 10px;
+    width: 100%;
+}
+#popup-full {
+    background: #3B0B24 none repeat scroll 0 0;
+    height: 100%;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    z-index: 90;
+}

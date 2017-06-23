@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tuoisachvvn</title>
+    
+	  <link rel="stylesheet" href="../site/css/box_tinhot.css" type="text/css">
+	  <link rel="stylesheet" href="../site/css/awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/top_menu_2.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/form_login.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/slide_tp.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_gioithieu.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_sanphammoi.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_sanpham_ban.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_doitac.css" type="text/css">
+	  <link rel="stylesheet" href="../site/royalslider/royalslider.css" type="text/css">
+    <link type="text/css" href="../site/royalslider/skins/minimal-white/rs-minimal-white.css" rel="stylesheet">
+    <link rel="stylesheet" href="../site/css/danhmucthucpham.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/chitietthucpham.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/style.css" type="text/css">
+	<link rel="stylesheet" href="../site/css/responsive.css" type="text/css">
+	<link rel="stylesheet" href="../site/css/responsive_thucpham.css" type="text/css">
+  <script type="text/javascript" src="../site/css/bootstrap/js/bootstrap.js"></script>
+
+    <style>
+    /* these styles are for the demo, but are not required for the plugin */
+    .zoom {
+      display:inline-block;
+      position: relative;
+    }
+    /* magnifying glass icon */
+    .zoom:after {
+      content:'';
+      display:block; 
+      width:33px; 
+      height:33px; 
+      position:absolute; 
+      top:0;
+      right:0;
+      background:url(../site/images/icon_zoom.png);
+    }
+    .zoom img {
+      display: block;
+    }
+    .zoom img::selection { background-color: transparent; }
+  </style>
+  <link rel="stylesheet" href="../site/jqzoom_ev/css/jquery.jqzoom.css" type="text/css">
+
+	  <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../site/js/category_acordition.js"></script>
+    <script type="text/javascript" src="../site/css/bootstrap/js/bootstrap.js"></script>
+    <script language="javascript" src="../site/js/main.js"></script>
+    <script src="../site/js/api-ajax.js"></script> 
+    <script language="javascript" src="../site/js/jquery-box-tin-meovat.min.js"></script>
+  	<script language="javascript" src="../site/royalslider/jquery.royalslider.min.js"></script>
+
+    <!-- <script src="../site/jqzoom_ev/js/jquery.zoom.js" type="text/javascript"></script>
+    <script type='text/javascript'>
+      $(document).ready(function(){
+        $('.ex1').zoom();
+      });
+    </script> -->
+    
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+               <div class="menu_top_bar clearfix">
+                  <a href="#" class="bt-menu"><span class="fa fa-bars"></span></a>
+               </div>
+
+               <script language="javascript">
+                 $(document).ready(function(){
+                    $('.bt-menu > span').click(function(){
+                      var open = $(this).attr('class');
+                      if(open == 'fa fa-bars')
+                      {
+                        $(this).removeClass('fa-bars').addClass('fa-times');
+                      }else if(open == 'fa fa-times')
+                      {
+                        $(this).removeClass('fa-times').addClass('fa-bars');
+                      }else{
+                        $(this).removeClass('fa-times').addClass('fa-bars');
+                      }
+                    });
+                 });
+               </script>
+
+                <div class="top_bar clearfix">
+                    <div class="inner">
+                        <div id="top_bar_left">
+                            <ul id="menu_primary_items">
+                                <li><a href="#"><span class="fa fa-map-signs"></span> Cơ sở 1 chân cầu T8 - Vĩnh Tuy, Hà Nội</a></li>
+                                <li><a href="#"><span class="fa fa-truck"></span> Giao hàng tận nơi</a></li>
+                                <li><a href="#"><span class="fa fa-credit-card"></span> thanh toán trực tiếp, chuyển khoản</a></li>
+                                <li><a href="#">HotLine:01647858168 - Mail <i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+
+			<div class="wp_inner top_logo">
+    				<div id="logo" ><!-- the logo -->
+                       <a href="#"><img class="tuoisach" src="../site/images/logo.png" alt="webFood"></a>
+                    </div><!-- End logo -->
+
+                     <div class="search-form">
+						<form method="get" action="">
+							<input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" name="key-search" value="" placeholder="Tìm kiếm..." class="search-form__query ui-autocomplete-input">
+							<button type="submit" class="search-form__submit"></button>
+						</form>
+					</div>
+
+					<div id="cart_expand" class="cart "> <!--  load gio hàng -->
+					   <div class="header-cart__button"><a href="#">Giỏ hàng: (0)</a></div>
+					</div> <!--  load gio hàng -->
+
+					<div class="clearfix"></div>
+
+                    <!-- <div  id="search-form">
+                        <form action="" class="form-wrapper" method="get" >
+                            <input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" class="ui-autocomplete-input" placeholder="Thực phẩm bạn tìm là..." value="" name="key-search" id="search"       >
+                            <input id="submit" value="tìm kiếm" type="submit" name="but">
+                        </form>
+                    </div> -->
+			</div>	
+		</div><!--End header-->	
+		
+		<header>
+			<div class="menu_bar">
+				<a class="bt-menu"><span class="fa fa-bars"></span>Menu</a>
+			</div>
+
+			<nav class="nav_menu wp_nav clearfix">
+				<ul>
+					<li class="active index-li"><a href="<?php echo base_url() ?>"><i class="fa fa-home"></i> TRANG CHỦ </a></li>
+
+                        <li class=""><a href="<?php echo site_url('safety'); ?>"> AN TOÀN THỰC PHẨM</a></li>
+
+                        <li class=""><a href="<?php echo site_url('news'); ?>"> MẸO &amp; KĨ NĂNG</a></li>  
+
+                        <li class="submenu1">
+                           <a href="#"><span class="fa fa-thumbs-o-up"></span> THỰC PHẨM </span></a>
+                           <ul class="children1">
+                                 <li> <a href="#">Thịt bò <span class="fa fa-angle-right"></span></a> </li>
+                                 <li><a href="#">Thịt lợn<span class="fa fa-angle-right"></span></a></li>
+                                 <li><a href="#">Mẹo vặt<span class="fa fa-angle-right"></span></a></li>
+                           </ul>
+                        </li>
+
+                        <li class="submenu1">
+                           <a href="#"><span class="fa fa-thumbs-o-up"></span> THỰC PHẨM </span></a>
+                           <ul class="children1">
+                                 <li> <a href="#">Thịt bò <span class="fa fa-angle-right"></span></a> </li>
+                                 <li><a href="#">Thịt lợn<span class="fa fa-angle-right"></span></a></li>
+                                 <li><a href="#">Mẹo vặt<span class="fa fa-angle-right"></span></a></li>
+                           </ul>
+                        </li>
+
+                        <li class=""><a href="<?php echo site_url('partner'); ?>"> ĐƠN VỊ ĐỐI TÁC</a></li>
+
+                        <!-- li class=""><a href="<?php echo site_url('user/index'); ?>"><i class="fa fa-user" aria-hidden="true"></i> Xin chào: <?php echo $user_info->name ?></a></li>
+                        <li><a class="verify_logout" href="<?php echo site_url('user/logout'); ?>"><i class="fa fa-sign-out" aria-hidden="true"></i> Thoát</a></li>
+                        <li class=""><a href="<?php echo site_url('user/register')?>"><i class="fa fa-user-plus" aria-hidden="true"></i> ĐĂNG KÝ</a></li> -->
+
+                        <li class=""><!-- phần đăng nhập -->
+                            <label for="">
+                                <a class="btn_login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">  
+                                   <i class="fa fa-sign-in" aria-hidden="true"></i> Đăng nhập</a></li>
+                                </a>
+                            </label>
+                            <!-- form đăng nhập của thành viên -->
+                                <div id="id01" class="modal">
+                                      <form class="modal-content animate" method="post" action="<?php echo site_url('user/login'); ?>">
+                                            <div class="imgcontainer">
+                                              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                              <img src="../site/images/img_avatar2.png" alt="Avatar" class="avatar">
+                                            </div>
+
+                                            <div class="container">
+                                              <label><b style="color: #4CAF50;">Email</b></label>
+                                              <input type="email" placeholder="address@gmail.com" name="email" id="email" required>
+
+                                              <label><b style="color: #4CAF50;">Mật Khẩu</b></label>
+                                              <input type="password" placeholder="nhập mật khẩu" name="password" id="password" required>
+                                                
+                                              <button type="submit">Đăng nhập</button>
+                                              <input type="checkbox" checked="checked"> Ghi nhớ tài khoản
+                                            </div>
+
+                                            <div class="container" style="background-color:#f1f1f1">
+                                              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                              <span class="psw">Quên <a href="#">mật khẩu?</a></span>
+                                            </div>
+                                      </form>
+                                </div>
+
+                                <script>
+                                    // Get the modal
+                                    var modal = document.getElementById('id01');
+
+                                    // When the user clicks anywhere outside of the modal, close it
+                                    window.onclick = function(event) {
+                                        if (event.target == modal) {
+                                            modal.style.display = "none";
+                                        }
+                                    }
+                                </script>
+                        </li><!-- phầm đăng nhập -->
+				  </ul>
+			</nav>
+
+		</header>
+
+
+  <div class="container">
+    <div class="row">
+
+      			<div class="col-lg-12">
+              <div class="header_breadcrumb" >
+                <ul class="breadcrumbs">
+                  <li><a href="/">Trang chủ</a></li>
+                  <!-- blog -->
+                     <li class="active breadcrumb-title"> <i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp; Thịt sạch</li>
+                </ul>
+              </div>   
+            </div>
+
+              <!-- phần box thuc pham moi của web ở trang chủ--> 
+              <div id="box_sanphammoi" >
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+                   <div  class="left-products show_mobiles">
+                       <div class="box-left hide_pd_mobile">
+                          <div class="title tittle-box-left">
+                              <h2><span class="fa fa-bars"></span> Danh mục sản phẩm </h2>
+                          </div>
+                          <div id="accordian"><!-- The content-box -->
+                               <ul class="catalog-main">
+                                  <li class="catalog-sub">
+                                    <a href="#">Thịt tươi</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <ul>
+                                      <li><a href="#">Reports</a></li>
+                                      <li><a href="#">Search</a></li>
+                                      <li><a href="#">Graphs</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    </ul>
+                                  </li>
+
+                                  <!-- we will keep this LI open by default -->
+                                  <li class="catalog-sub" >
+                                    <a href="#">Hải sản tươi</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <ul>
+                                      <li><a href="#">Today's tasks</a></li>
+                                      <li><a href="#">Urgent</a></li>
+                                      <li><a href="#">Overdues</a></li>
+                                      <li><a href="#">Recurring</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    </ul>
+                                  </li>
+
+                                  <li class="catalog-sub">
+                                    <a href="#">Hoa quả tươi</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <ul>
+                                      <li><a href="#">Current Month</a></li>
+                                      <li><a href="#">Current Week</a></li>
+                                      <li><a href="#">Previous Month</a></li>
+                                      <li><a href="#">Previous Week</a></li>
+                                      <li><a href="#">Next Month</a></li>
+                                      <li><a href="#">Next Week</a></li>
+                                      <li><a href="#">Team Calendar</a></li>
+                                      <li><a href="#">Private Calendar</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    </ul>
+                                  </li>
+
+                                  <li class="catalog-sub">
+                                    <a href="#">Đồ khô</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <ul>
+                                      <li><a href="#">Global favs</a></li>
+                                      <li><a href="#">My favs</a></li>
+                                      <li><a href="#">Team favs</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                          </div><!-- End content-box -->
+                      </div><!-- End box-left -->
+
+                       <div class="box-left">
+                        <div class="box_kinang">
+                          <div class="row_safety">
+                              <div class="col">
+                                  <div class="panel panel-default">
+                                       <div class="panel-heading"> 
+                                         <h2><span class="fa fa-bars"></span> Tin vệ sinh an toàn TP </h2>
+                                        </div>
+                                          <div class="panel-body">
+                                            <div class="row">
+                                                 <div class="new_main">
+                                                   <ul class="demo">
+                                                   
+                                                      <li class="news-item">
+                                                        <div class="blog_img">
+                                                            <a href="#">
+                                                            <img src="http://localhost/tuoisach/upload/images/anh%20ve%20sinh%20an%20toan%20thuc%20pham/tieu-huy.jpg" width="60" class="img-circle" />
+                                                        </a>
+                                                        </div>
+                                                        <div class="blog_detail">
+                                                           <h3><a href="#">tieu de bai viet</a></h3>
+                                                           <span><i class="fa fa-calendar" aria-hidden="true"></i> 20/2017  <i class="fa fa-eye" aria-hidden="true"></i> <20</span>
+                                                            <p>mo ta ngan <a href="#">...[Xem thêm...]</a></p>
+                                                        </div>
+                                                      </li>
+                                                 
+
+                                                  </ul>
+                                              </div>
+                                            </div><!-- end row -->
+                                          </div><!-- end panel-body -->
+                                          <div class="panel-footer"> 
+                                               <ul class="pagination pull-right" >
+                                                  <li class="glyphicon_down">
+                                                  </li>
+                     
+                                                  <li class="glyphicon_up>
+                                                  </li>
+                                              </ul>
+                                          <div class="clearfix"></div>
+                                        </div> <!-- end panel-footer  -->  
+                                      </div>
+                                  </div><!-- end col -->
+                              </div><!-- end row -->
+                          </div><!-- End box-ki-nang -->
+                          <script type="text/javascript">
+                          $(function () {
+                              $(".demo").bootstrapNews({
+                                  newsPerPage: 1,
+                                  autoplay: true,
+                                  pauseOnHover:true,
+                                  direction: 'up',
+                                  newsTickerInterval: 6000,
+                                  onToDo: function () {
+                                      //console.log(this);
+                                  }
+                              });
+                          });
+                      </script>   
+                     </div><!-- end left-product -->
+                   </div><!-- col-lg-3 col-md-3 col-sm-12 col-xs-12 --> 
+                         
+
+                       
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                        <div class="product-content">
+                            <div class="mergen">
+                                <div class="col-lg-6">
+                                    <div id="image_galary">
+                                      <div class="zoom ex1" id="imgMain"><!-- chua image chinh -->
+                                        <img src="http://localhost/tuoisach/upload/images/product/ca_chep_song_da.jpg" alt="" >
+                                      </div>
+                                      <div id="imgThumnail">
+                                        <img src="http://localhost/tuoisach/upload/images/product/toi1.jpg" alt="" >
+                                        <img src="http://localhost/tuoisach/upload/images/product/toi1.jpg" alt="" >
+                                        <img src="http://localhost/tuoisach/upload/images/product/toi1.jpg" alt="" >
+                                        <img src="http://localhost/tuoisach/upload/images/product/toi1.jpg" alt="" >
+                                      </div><!-- end imgContainer -->
+                                    </div><!-- image_galary -->
+                                </div><!-- col-lg-6 -->
+
+                                <div class="col-lg-6">
+                                    <div class="product-content">
+                                      <h3 class="product__name">cá chép sông đà</h3>
+                                      <div class="product__summary">
+                                         Cá thu Phan Thiết được phong là “tứ quý ngư” tức 1 trong 4 loại cá quý của biển bởi những dưỡng chất cũng như vị ngon ngọt đậm đà đặc trưng mà nó mang lại. 
+                                      </div>
+                                      <p id="status">Trạng Thái: <span>còn hàng</span></p>
+
+                                      <p id="status">Qùa tri ân: <span>Nếu khách hàng mua với số lượng lớn</span></p>
+
+                                      <p class="product__price">
+                                        <span> 200000 <sup>đ</sup></span>
+                                        <span class="price-old"> 210000 <sup>đ</sup></span>
+                                      </p>
+
+                                      <form action="" method="post" id="product-form">
+                                        <div class="product__variants">
+
+                                            <div class="product__variants__item">
+                                              <label>Số lượng</label>
+                                              <div class="product__quantity">
+                                                <span class="quantity__down" onclick="quantityChange('down')">-</span>
+                                                <input type="text" name="quantity" value="1">
+                                                <span class="quantity__up" onclick="quantityChange('up')">+</span>
+                                              </div><!-- end product__quantity -->
+                                            </div><!-- end product__variants__item -->
+                                           
+                                        </div><!-- end product__variants -->
+                                        <a href="#"  class="product__add">Mua hàng</a>
+                                      </form>
+                                      <script language="javascript">
+                                          // doan code khong cho nhap string  
+                                          $(document).ready(function(){
+                                              $(".product__quantity input").keydown(function (e) {
+                                               // Allow: backspace, delete, tab, escape, enter and .
+                                               if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                                                 // Allow: Ctrl+A, Command+A
+                                                 (e.keyCode == 65 && ( e.ctrlKey === true || e.metaKey === true ) ) || 
+                                                 // Allow: home, end, left, right, down, up
+                                                 (e.keyCode >= 35 && e.keyCode <= 40)) {
+                                                 // let it happen, don't do anything
+                                                 return;
+                                               }
+                                               // Ensure that it is a number and stop the keypress
+                                               if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                                                 e.preventDefault();
+                                               }
+                                               if(isNaN($(".product__quantity input").val())) {
+                                                 $(".product__quantity input").val(1); 
+                                               }
+                                             });
+                                            
+                                          });
+                                         function quantityChange(change) {
+                                             var quantity = parseInt($('.product__quantity input').val());
+                                             if(change == 'down') {
+                                               quantity = quantity - 1;
+                                             } else {
+                                               quantity = quantity + 1;
+                                             }
+                                             if(quantity < 1) quantity = 1;
+                                             $('.product__quantity input').val(quantity);
+                                           }
+                                      </script>
+
+                                      <div class="product__share">
+                                        <ul>
+                                          <li class="facebook">
+                                            <!--<a target="_blank" href="http://www.facebook.com/sharer.php?u=https://standardfood.vn/ca-thu-phan-thiet">Facebook</a>-->
+                                            <a href="#" target="_blank">facebook</a>
+                                          </li>
+                                          <li class="twitter">
+                                            <a href="#">Twitter</a>
+                                          </li>
+                                          <li class="google">
+                                            <a href="#" >Google</a>
+                                          </li>
+                                        </ul>
+                                      </div><!-- product__share -->
+                                    </div>
+                                </div>
+                            </div><!-- end class -->
+                             <script language="javascript">
+                              $(document).ready(function(){
+                                $('#imgThumnail img').on({
+                                  mouseover : function(){
+                                    $(this).css({'cursor' : 'pointer', 'opacity' : '0.7', 'transaction' : '0.5s'});
+                                  },
+                                  mouseout : function(){
+                                    $(this).css({'cursor' : 'default', 'opacity' : '1', 'transaction' : '0.5s'});
+                                  },
+                                  click : function(){
+                                    var $mainImg = $('.ex1 img');
+                                    var $elementImg = $(this).attr('src');
+                                    $mainImg.fadeOut(300, function(){$(this).attr('src', $elementImg );}).fadeIn(300);
+                                  }
+                                });
+                              });
+                            </script><!-- doan script hieu ung anh -->
+                        </div><!-- end product-content -->
+
+
+
+                       <!-- phan tab noi dung san pham -->
+                       <div class="product_tabs">
+                          <ul class="tab_product">
+                            <li><a title="tab-1" class="tab active_tab" > Thông Tin </a></li>
+                            <li><a title="tab-2" class="tab " > Thẻ Tags </a></li>
+                            <li><a title="tab-3" class="tab " > Video </a></li>
+                          </ul>
+
+                          <div class="tab_contents">
+                              <div id="tab-1" class="contentTab">
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet minus repellendus consectetur aliquam officiis placeat. 
+                              </div><!-- end contentTab -->
+
+                              <div id="tab-2" class="contentTab">
+                                 Cố lên tôi ơi
+                              </div><!-- end contentTab -->
+
+                              <div id="tab-3" class="contentTab">
+                                Cầu Phật, mong điều đó sẽ thành hiện thực
+                              </div><!-- end contentTab-->
+                          </div><!-- tab_contents -->
+                       </div><!-- end product-tabs -->
+
+                       <script language="javascript">
+                         $(document).ready(function(){
+                            $('.tab').on('click', function(){
+                              $('.active_tab').removeClass('active_tab');
+                              // them moi class active vao
+                              $(this).addClass('active_tab');
+
+                              // an the div theo tab do di khi chuyen sang div khac
+                              $('.contentTab').hide();
+                              var $title = $(this).attr('title');
+                              $('#' + $title).show();
+                            });
+                         });
+                       </script>
+                      
+                    <div class="product_related">
+                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 product_lienquan ">
+                          <div class="box_heading">
+                              <h2>
+                                  Thực phẩm liên quan
+                              </h2>
+                          </div>
+                          <!-- Controls -->
+                          <div class="controls pull-right mobile-hidden_top">
+                             <a class="left fa fa-chevron-left btn btn-success" href="#carousel-example"
+                                  data-slide="prev"></a>
+                             <a class="right fa fa-chevron-right btn btn-success" href="#carousel-example"
+                                      data-slide="next"></a>
+                          </div>
+                       </div>
+
+                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
+                        <div id="carousel-example" class="carousel slide mobile-hidden_content" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="row">
+                                        
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mobile_product ">
+                                            <div class="col-item">
+                                                <div class="photo">
+                                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+                                                </div>
+                                                <div class="info">
+
+                                                    <div class="row">
+                                                        <div class="price col-md-6">
+                                                            <h5>
+                                                                Sample Product</h5>
+                                                            <h5 class="price-text-color">
+                                                                $199.99</h5>
+                                                        </div>
+                                                        <div class="rating hidden-sm col-md-6">
+                                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="clearfix">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- col-sm-3 -->
+
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mobile_product">
+                                            <div class="col-item">
+                                                <div class="photo">
+                                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+                                                </div>
+                                                <div class="info">
+
+                                                    <div class="row">
+                                                        <div class="price col-md-6">
+                                                            <h5>
+                                                                Sample Product</h5>
+                                                            <h5 class="price-text-color">
+                                                                $199.99</h5>
+                                                        </div>
+                                                        <div class="rating hidden-sm col-md-6">
+                                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="clearfix">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- col-sm-3 -->
+
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mobile_product">
+                                            <div class="col-item">
+                                                <div class="photo">
+                                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+                                                </div>
+                                                <div class="info">
+
+                                                    <div class="row">
+                                                        <div class="price col-md-6">
+                                                            <h5>
+                                                                Sample Product</h5>
+                                                            <h5 class="price-text-color">
+                                                                $199.99</h5>
+                                                        </div>
+                                                        <div class="rating hidden-sm col-md-6">
+                                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="clearfix">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- col-sm-3 -->
+
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mobile_product">
+                                            <div class="col-item">
+                                                <div class="photo">
+                                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+                                                </div>
+                                                <div class="info">
+
+                                                    <div class="row">
+                                                        <div class="price col-md-6">
+                                                            <h5>
+                                                                Sample Product</h5>
+                                                            <h5 class="price-text-color">
+                                                                $199.99</h5>
+                                                        </div>
+                                                        <div class="rating hidden-sm col-md-6">
+                                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="clearfix">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- col-sm-3 -->
+
+                                    </div><!-- end row -->
+                                </div><!-- end item -->
+
+                                <div class="item">
+                                      <div class="row">
+
+                                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mobile_product">
+                                            <div class="col-item">
+                                                <div class="photo">
+                                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+                                                </div>
+                                                <div class="info">
+
+                                                    <div class="row">
+                                                        <div class="price col-md-6">
+                                                            <h5>
+                                                                Sample Product</h5>
+                                                            <h5 class="price-text-color">
+                                                                $199.99</h5>
+                                                        </div>
+                                                        <div class="rating hidden-sm col-md-6">
+                                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="clearfix">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- col-sm-3 -->
+
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mobile_product">
+                                            <div class="col-item">
+                                                <div class="photo">
+                                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+                                                </div>
+                                                <div class="info">
+
+                                                    <div class="row">
+                                                        <div class="price col-md-6">
+                                                            <h5>
+                                                                Sample Product</h5>
+                                                            <h5 class="price-text-color">
+                                                                $199.99</h5>
+                                                        </div>
+                                                        <div class="rating hidden-sm col-md-6">
+                                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="clearfix">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- col-sm-3 -->
+
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mobile_product">
+                                            <div class="col-item">
+                                                <div class="photo">
+                                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+                                                </div>
+                                                <div class="info">
+
+                                                    <div class="row">
+                                                        <div class="price col-md-6">
+                                                            <h5>
+                                                                Sample Product</h5>
+                                                            <h5 class="price-text-color">
+                                                                $199.99</h5>
+                                                        </div>
+                                                        <div class="rating hidden-sm col-md-6">
+                                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="clearfix">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- col-sm-3 -->
+
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 mobile_product">
+                                            <div class="col-item">
+                                                <div class="photo">
+                                                    <img src="http://placehold.it/350x260" class="img-responsive" alt="a" />
+                                                </div>
+                                                <div class="info">
+
+                                                    <div class="row">
+                                                        <div class="price col-md-6">
+                                                            <h5>
+                                                                Sample Product</h5>
+                                                            <h5 class="price-text-color">
+                                                                $199.99</h5>
+                                                        </div>
+                                                        <div class="rating hidden-sm col-md-6">
+                                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                                            </i><i class="fa fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="clearfix">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- col-sm-3 -->
+
+                                      </div><!-- end row -->  
+                                </div><!-- item -->
+                            </div>
+                        </div>      
+                      </div>                  
+                   </div><!-- product-relate -->
+
+
+                 </div><!-- col-lg-9 col-md-9 col-sm-12 col-xs-12 -->
+             </div><!-- End box-san pham moi --> 
+                
+              
+                <!-- box doin tac -->
+                <div id="box_doitac" class="hide_mb_partner" style="width:100%;  float:left;margin-bottom:15px; margin:0 auto; padding-top:5px; padding-bottom: 20px;">
+                    <div class="partner">
+                        <div class="partner-top">
+                           <div class="tittle-box-center">
+                             <span>
+                               <h2>
+                                <a href="#">ĐỐI TÁC CỦA Tuoisachvvn</a>
+                               </h2>
+                             </span>
+                          </div>
+                       </div><!-- End partner-top--> 
+
+                       <div class="partner-bottom">
+                         <div class="img-partner">
+                            <img src="upload/baner_pd/parner/anacook.jpg" alt="">
+                         </div><!-- end partner-botom --> 
+
+                         <div class="img-partner">
+                            <img src="upload/baner_pd/parner/cn.jpg" alt="">
+                         </div><!-- end partner-botom --> 
+
+                         <div class="img-partner">
+                            <img src="upload/baner_pd/parner/veco.jpg" alt="">
+                         </div><!-- end partner-botom --> 
+
+                         <div class="img-partner">
+                            <img src="upload/baner_pd/parner/thaitai.jpg" alt="">
+                         </div><!-- end partner-botom --> 
+                       </div><!-- end partner-bottom -->
+                   </div><!-- end partner -->
+                </div><!-- end doi tac -->
+        
+              </div> <!-- End outer--> 
+          </div><!-- end row -->
+        </div><!-- end container -->
+
+
+
+
+
+
+           <footer class="footer" id="footer">
+
+              <div class="wp_inner">
+                  <div class="footer_container">
+                      <div class="row_footer_box">
+                           <div id="r1" class="row_box">
+                             <h2>giới thiệu</h2>
+                             <p>Hệ thống cửa hàng thực phẩm sạch Tuoisachvvn chuyên cung cấp thực phẩm sạch uy tín hàng đầu tại Hà Nội</p> 
+                             <p><i class="fa fa-map-marker"></i> Tuoisachvvn 1: số 75, ngõ 479, Lĩnh Lam, Hà Nội </p>
+                             <p><i class="fa fa-map-marker"></i> Tuoisachvvn 2: số 75, ngõ 243, Lĩnh Lam, Hà Nội </p>
+                             <p><i class="fa fa-phone"></i> CS1: (04)62910429 - CS2: (04)63290793</p>
+                             <p><i class="fa fa-envelope"></i> theanh25081995@gmail.com</p>
+                           </div> 
+
+                           <div id="r2" class="row_box">
+                             <h2>về chúng tôi</h2>
+                             <ul>
+                               <li><a href="#">giới thiệu</a></li>
+                               <li><a href="#">tuyển dụng</a></li>
+                               <li><a href="#">tin tức</a></li>
+                               <li><a href="#">liên hệ</a></li>
+                             </ul>
+                           </div>
+
+                           <div id="r3" class="row_box">
+                             <h2>thông tin</h2>
+                             <ul>
+                               <li><a href="#">hình thức thanh toán</a></li>
+                               <li><a href="#">điều khoản dịch vụ</a></li>
+                               <li><a href="#">hợp tác</a></li>
+                               <li><a href="#">tìm kiếm</a></li>
+                             </ul>
+                           </div>
+
+                           <div id="r4" class="row_box">
+                             <h2>quy định và chính sách</h2>
+                             <ul>
+                               <li><a href="#">hướng dẫn mua hàng</a></li>
+                               <li><a href="#">chính sách bảo mật</a> </li>
+                               <li><a href="#">chính sách đổi trả hàng</a></li>
+                               <li><a href="#">chính sách vận chuyển</a></li>
+                             </ul>
+                           </div>
+                      </div><!-- end row_footer -->
+                  </div><!-- end footer_conainer -->
+              </div><!-- end footer_content -->
+
+              <div class="clearfix"></div>
+                    
+              <div class="footer_copy wp_inner">
+                     <p>Author: Tuoisachvvn-vutheanh @Copyright 2017</p>
+              </div><!-- footer_copy -->
+
+           </footer><!-- End footer -->
+
+	 </div><!-- End wrapper -->	
+</body>
+</html>

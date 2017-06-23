@@ -1,0 +1,425 @@
+
+@media screen and (max-width: 1250px){
+	.top_bar .inner {width: 100%; padding-left: 10px!important; padding-right: 10px!important;}
+	.pd_mobile {padding:0 10px;}
+	.wp_inner {width: 100%;}
+	.nv_mobile {padding-left: 5px!important; padding-right: 5px!important;}
+	.nav_shadown { background: url(../images/nav-shadow.png) no-repeat; height: 19px; margin: -2px auto 0; z-index: 1;}
+
+	/*------------------------------phan box slide thuc pham------------------------------*/
+	div.top_left{width: 40%; margin-right: 0px!important; height: 200px!important; }
+	#HomeSlide1.royalSlider {width: 100%; max-height: 200px!important;}
+	#HomeSlide1.royalSlider img{width: 100%; max-height: 200px!important;}
+	
+	div.top_right{width: 58%;  margin-right: 0px!important; height: 200px!important; }
+	#HomeSlide.royalSlider {width: 100%; max-height: 200px!important;}
+	#HomeSlide.royalSlider img{width: 100%; max-height: 200px!important;}
+	/*------------------------------phan box slide thuc pham------------------------------*/
+	
+}
+
+@media screen and (max-width: 1170px)
+{
+	/*-------------------------------phan menu dau tien-------------------------------*/
+  .top_bar .inner #top_bar_left ul li a {padding:0 5px!important;}
+  .top_bar .inner #top_bar_left ul li a { font-size: 11px!important;}
+  header nav ul {width: 100%; padding:0px 10px;}
+  /*phan menu dau tien*/
+	
+  /*-------------------------------phan box gioi thieu vitri box thu 3-------------------------------*/
+  .circle-headline h2{width: 50%;}	
+  /*-------------------------------phan box gioi thieu vitri box thu 3-------------------------------*/
+
+  /*css phan box ho tro truc tuyen*/
+  .box_most_right-pd .highlight span{font-size: 13px;}
+  .box_most_right-online .highlight span{font-size: 13px;}
+
+
+  /*css phan box meo vat*/
+   #box_sanphammoi .meovat .panel-body .new_main ul.demo li img{height: 150px;}
+   #box_sanphammoi .meovat .panel-body .new_main ul.demo{height: 400px!important;}
+   .panel_footer ul {width: 40%;}
+   .panel-heading h2 {font-size: 16px;}
+
+   /*box san pham moi*/
+   .box-sale-content .owl-hotsale .product_item {width: 33%;}
+   section.product-sale .box-sale-content {margin-left: 2px;}
+   .box-left .fanPage iframe{width: 100%;}
+   .product_item .price {font-size: 16px;}
+   /*box san pham moi*/
+
+}
+
+@media screen and (max-width: 1020px)
+{
+	/*phan logo. muc tim kiem va gio hang*/
+	#header{padding-bottom: 0px;}
+	#logo{width: 100%; padding-left: 15px;}
+	#cart_expand a:hover {text-decoration: none;}
+	#cart_expand{width: 100%; margin-top: 10px; padding-top: 0px!important;padding-bottom: 5px!important; padding-left: 25px; }
+	#cart_expand .header-cart__button {float: left;}
+	.search-form {width: 70%; margin:0px; padding-top:10px; padding-left: 20px!important;}
+	.search-form .search-form__submit {padding:0px; top:10px;}
+	header nav ul li a {font-size: 12px!important;}
+	.show_cart{left: 0;}
+	/*phan logo. muc tim kiem va gio hang*/
+
+	/*-------------------------------phan box slide trang chu-------------------------------*/
+	.hide_slide{display: none;}
+	div.top_right{width: 90%; float: left; padding:0 10%; margin-left: 5%; margin-right: 5%; height: 200px!important; }
+	#HomeSlide.royalSlider {width: 100%; max-height: 200px!important;}
+    #HomeSlide.royalSlider img{width: 100%; max-height: 200px!important;}
+	/*-------------------------------phan box slide tang chu*/
+
+	/*-------------------------------phan box gioi thieu vitri box thu 3-------------------------------*/
+	.circle-headline img{margin-right: 20px;}
+	.circle-headline h2{font-size: 1.2em;}
+	/*-------------------------------phan box gioi thieu vitri box thu 3-------------------------------*/
+
+
+	/*---------------------------------------css phan box ho tro truc tuyen---------------------------------------*/
+   .box_most_right-pd .highlight span{font-size: 12px;}
+   .box_most_right-online .highlight span{font-size: 12px;}
+
+   /*---------------------------------------css phan box meo vat---------------------------------------*/
+   #box_sanphammoi .meovat .panel-body .new_main ul.demo li img{height: 150px;}
+   #box_sanphammoi .meovat .panel-body .new_main ul.demo{height: 430px!important;}
+   .panel_footer ul {width: 40%;}
+
+}
+
+@media screen and (max-width: 1000px)
+{
+	/*---------------------------css phan box ho tro truc tuyen---------------------------*/
+   #box_sanphammoi .hide_pd_mobile {display: none;}
+   #box_sanphammoi .content-product {width: 100%;}
+
+   /*---------------------------css phan box meo vat va ki nang va box hoa qua vung mien---------------------------*/
+   #box_sanphammoi .meovat{width: 100%; float: left; margin:0px auto; padding-bottom: 20px;}
+   #box_sanphammoi .meovat .panel-body .new_main ul.demo{height: 380px!important;}
+   #box_sanphammoi .meovat .panel-body .new_main ul.demo li img{height: 200px;}
+   #box_sanphammoi .meovat .box-left{width: 45%; margin:0px 3% 0px 2%;}
+   .panel_footer ul {width: 20%;}
+   .panel-body .new_main ul.demo_hoaqua {height: 470px!important;}
+
+
+   /*--------------------------------css phan box fanpage facebook--------------------------------*/
+   .fanPage {display: none;}
+
+
+   /*---------------------------------------css phan footer---------------------------------------*/
+	.footer .footer_container {padding-top: 15px;}
+}
+
+@media screen and (max-width: 900px){
+	/*---------------------------------------css phan top menu---------------------------------------*/
+	.search-form {width: 90%; }
+	nav.nav_menu {width: 50%;}
+	#content, #sidebar {width: 100%; padding:0;}
+	.menu_top_bar {display: block; width: 100%; top: 0; height:40px;}
+	.top_bar {width: 0px; height: 0px;}
+	.menu_top_bar .bt-menu { display: block; padding: 9px;  overflow: hidden; font-size: 20px; font-weight: bold;}
+	.menu_top_bar span {color: #fff;}
+	.menu_top_bar ul li {display: block; }
+	.menu_top_bar ul li a {display: block; padding:15px; font-size: 16px; font-weight: bold; color: rgb(255,255,255);}
+	.top_bar .inner #top_bar_left { width: 50%; position: absolute; height: auto; right: 100%; margin:0; top:40px; background: #197D07; z-index: 1000;}
+	.top_bar .inner #top_bar_left ul li a{color: #ffffff;}
+	.top_bar .inner #top_bar_left ul li a:hover {background: #66CC66; }
+	.top_bar .inner #top_bar_left ul {width: 100%;} 
+	.top_bar .inner #top_bar_left ul li {display: block; border-bottom: 1px solid rgba(255,255,255,.5) ; }
+	.top_bar .inner #top_bar_left ul li a {display: block; font-size: 14px!important;}
+
+	.menu_bar {display: block; height: 40px; width: 100%; top:0; background-color: #197D07;}
+	.menu_bar .bt-menu { display: block; padding: 10px; color: rgb(255,255,255); overflow: hidden; font-size: 20px; font-weight: bold;}
+	.menu_bar a span:hover {color: #FFDCA8;}
+	.menu_bar span {float: right; cursor: pointer;}
+	header nav {position: absolute; right: 100%; margin: 0; }
+	header .wp_inner {width: 50%; }
+	header nav ul {width: 100%;}
+	header .box_search {width: 100%; clear: both;}
+	header nav ul li {display: block; border-bottom: 1px solid rgba(255,255,255,.5) ; }
+	header nav ul li a {display: block; font-size: 14px!important;}
+	header nav ul li .children1 {width: 100%!important;}
+	header nav ul li .children1 li{ margin-left: 5px; }
+	header nav ul li:hover .children1 {display: block; position: relative;}
+	header nav .box_search {width: 100%; clear: both;}
+
+	/*---------------------------phan box gioi thieu -------------------------------------- */
+	 .circle-headline{height: 35px;}
+	 .circle-headline img {display: none;}
+	 .circle-headline h2{width: 100%; margin-top: 5px!important; }
+	
+	/* css phan chi tiet thuc pham*/
+	.box-left{ width: 90%; }
+	.panel-body .new_main ul.demo {width: 80%;  height: 350px!important; }
+
+
+	/*------------------------css phan ab pham va box ki nang va hoa qua vung mien------------------------*/
+	.product_item .price { font-size: 16px;  }
+	.panel_footer ul {width: 30%;}
+	 #box_sanphammoi .meovat .panel-body .new_main ul.demo {height: 430px!important;}
+	.panel-body .new_main ul.demo_hoaqua{height: 430px!important;}
+
+    /*-----------------------------------css phan box doi tac-----------------------------------*/
+	.hide_mb_partner {display: none;}
+
+	/*--------------------------------------css phan footer--------------------------------------*/
+	#r1{width: 50%; padding-right: 5%; }
+	#r2{width: 45%;}
+	#r3{width: 50%;}
+	#r4{width: 50%;}
+
+}
+
+@media screen and (max-width: 800px)
+{
+	/*-----------------------------------css box-san-pham-moi-----------------------------------*/
+	#box_center_new .box-content-product .product_item .product_img {width: 80%;}
+
+
+	/*----------------------------------css box san pham ban----------------------------------*/
+	 .box-sale-content .owl-hotsale .product_item {width: 50%;}
+	 .box-sale-content .owl-hotsale .product_item .product_img {width: 70%;}
+
+	 /* css phan chi tiet thuc pham*/
+	.box-left{ width: 100%; }
+	.panel-body .new_main ul.demo {width: 100%;  height: 400px!important; }
+}
+
+@media screen and (max-width: 750px)
+{	/*phan slide*/
+	div.top_right {width: 100%; padding:0px!important; margin: 0px!important;}
+
+	/*-----------------------------phan css box-gioi-thieu-----------------------------*/
+	div.top_left_tab{display: none;}
+	div.top_right_tab{width: 100%;float: left;}
+	.tab_area{padding:0px;}
+
+	/*-----------------------------phan box-sanpham-moi-----------------------------*/
+	#box_sanphammoi .content-product #box-product-new-left{width: 100%; float: left;}
+	#box_sanphammoi .content-product #box_product_most-right{width: 100%; float: right; box-shadow: 0 0 10px #ccc;}
+
+	#box_product_most-right .box_most_right .highlight .product_item{width: 100%; float: left; box-shadow: 0 0 1px #ccc; }
+	#box_product_most-right .box_most_right .highlight .product_img {width: 60%; }
+	#box_product_most-right .box_most_right .highlight .product_item a.button{width: 18% ;height: 36px; line-height: 36px;}
+
+	/*------------------------------css phan box ho tro truc tuyen------------------------------*/
+	.box_most_right-online .highlight .sp_1 p:first-child{font-size: 16px;}
+	.box_most_right-online .highlight .sp_2 p:first-child{font-size: 16px;}
+	.box_most_right-online .highlight .sp_mail p:first-child{font-size: 16px;}
+	.box_most_right-online .highlight span {font-size: 13px;}
+
+	/*-------------------------------css phan meo vat va box hoa qua vung mien------------------------*/
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo {height: 420px!important;}
+	.panel-body .new_main ul.demo_hoaqua{height: 420px!important;}
+
+	/*-----------------------------css phan cacs box san pham ban-----------------------------*/
+	.box-sale-title .nav-box-sale ul li a {margin-right: 15px!important;}
+	.box-sale-title h3 {width: 25%;}
+	.box-sale-title .nav-box-sale {width: 75%;}
+}
+
+@media screen and (max-width: 680px){
+	#list_more li:nth-child(n) {width: 48%; margin-right: 4%;}
+	#list_more li:nth-child(2n) {margin-right: 0;}
+	.breaking-news .bn-title {width: 85px;} 
+	.news-ticker {margin: 0 0 0 85px;}
+	.top_bar .inner #top_bar_left { width: 50%; position: absolute; height: auto; right: 100%; margin:0; background: background: #64AF45; z-index: 1000;}
+	.top_bar .inner #top_bar_left ul li a {display: block; font-size: 13px!important;}
+} 
+
+@media screen and (max-width: 650px)
+{
+	/*phan top logo*/
+	.search-form {width: 100%; }
+	div.top_right {width: 100%; padding:0px!important; margin: 0px!important;}
+	/*-------------------------------phan box gioi thieu-------------------------------*/
+	#box_slide {margin-bottom: 0px!important; padding-bottom: 0px!important;}
+	div.top_left_tab{width: 100%; margin-right: 0px!important; margin-bottom: 5px;}
+	.circle-headline h2 {font-size: 18px;}
+	.circle-text-box .circle_content p {font-size: 16px!important;}
+	div.top_right_tab{width: 100%;}
+
+	/*css phan box san pham moi*/
+	.banner-pd1{display: none;}
+	.box-sale-title .nav-box-sale {display: none;}
+	.box-sale-title h3 {width: 60%;}
+
+	/*-------------------------------css phan box meo vat va hoa qua vung mien-------------------------------*/
+	#box_sanphammoi .meovat .box-left{width: 80%; margin:0px 10% 20px 10%;}
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo{height: 330px!important;}
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo_hoaqua{height: 500px!important;}
+    #box_sanphammoi .meovat .panel-body .new_main ul.demo li img{height: 150px;}
+    .panel_footer ul {width: 25%;}
+	
+
+
+
+}
+
+@media screen and (max-width: 550px)
+{
+	.search-form {width: 100%;}
+	/*----------------------------------css phan box san pham moi---------------------------------- */
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo{height: 370px!important;}
+    .product_item .product_img {width: 75%;} 
+	#box_product_most-right .box_most_right .highlight .product_img { width: 70%; }
+	.boxProduct_mostNew #box_center_new .box-content-product .product_item .product_img{width: 80%;}
+
+	/*------------------------------------css box san pham ban------------------------------------*/
+	.box-sale-content .owl-hotsale .product_item .product_img {width: 80%;}
+}
+
+@media screen and (max-width: 500px){
+	/*--------------------------phan top menu dau tien-----------------------------*/
+	.top_bar .inner #top_bar_left { width: 50%; position: absolute; height: auto; right: 100%; margin:0; background: #197D07; z-index: 1000;}
+	.top_bar .inner #top_bar_left ul li a {display: block; font-size: 12px!important;}
+    #list_more li:nth-child(n) {width: 100%; padding: 0px; }
+    .hide_mobile {display: none;}
+
+    /*-------------------------------------phan tin hot-------------------------------------*/
+    .breaking-news .bn-title span {display: none;}
+    .breaking-news .bn-title {width: 10px;} 
+	.news-ticker {margin: 0 0 0 15px;}
+	.news-ticker ul {margin: 0 0 0 0px; padding: 0;}
+	.news-ticker li {margin-right: 5px; position: relative;}
+
+	/*-------------------------------phan logo, tim kiem, gio hang-------------------------------*/
+	#logo img{width: 220px;}
+	#cart_expand{ }
+    .search-form .form-wrapper{width: 250px;}
+	.search-form .form-wrapper input[type="text"]{width: 170px; font-size: 11px;}
+	.search-form .form-wrapper input[type="submit"]{width: 60px; font-size: 11px;}
+	header nav ul li a {}
+
+	/*----------------------------------------phan slide----------------------------------------*/
+	div.top_right {width: 100%; padding:0px!important; margin: 0px!important; height: 150px!important;}
+
+	/*-------------------------------------phan san pham ban-------------------------------------*/
+	.boxProduct_mostNew #box_center_new .box-content-product .product_item{width: 100%;}
+	.boxProduct_mostNew #box_center_new .box-content-product .product_item .product_img{width: 70%;}
+	#box_product_most-right .box_most_right .highlight .product_item a.button{
+            display: block;
+            height: 36px;
+            width: 30%;
+            line-height: 36px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 16px;
+            background-clip: padding-box;
+            color: #fff;
+            background-color: #197d07;
+            margin:5px auto;
+            font-size: 12px;
+    }
+    #box_sanphammoi .meovat{width: 100%; }
+
+    #box_sanphammoi .meovat .box-left{width: 100%; margin: 0px auto; padding-bottom: 20px;}
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo{height: 330px!important;}
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo_hoaqua{height: 500px!important;}
+	.panel-body .new_main ul.box_pd{height: 500px!important;}
+	/*.panel-body .new_main ul.demo4{height: 500px!important;}
+*/	.box-left{margin-bottom: 0px;}
+    
+    #box_product_most-right .box_most_right .highlight .product_item  p {
+	    width: 100%;
+	    padding: 5px 2px;
+	    font-size: 18px;
+	    text-align: center;
+	}
+
+	.box_unhide_sale {display: none;}
+	.box_hide_md_sale{display: block;}
+
+	/*--------------------------------------css phan footer--------------------------------------*/
+	#r1{width: 100%; }
+	#r2{width: 100%;}
+	#r3{width: 100%;}
+	#r4{width: 100%;}
+#box_doitac .partner {overflow: scroll;}
+
+}
+
+@media screen and (max-width: 450px)
+{	
+	header .wp_inner {width: 95%; }
+	/*----------------------------------------phan top logo----------------------------------------*/
+	.search-form {width: 90%; }
+
+	/*---------------------------------phan css tab-gioi-thieu---------------------------------*/
+	ul.tab_title li a{font-size: 12px; width: 60px;}
+
+	/*-------------------------------------phan box-product-------------------------------------*/
+	.tittle-box-center h2{color: #69BD43; font-size: 1.2em; margin-bottom: 10px;}
+	.product_item .product_img{width: 75%;}
+}
+
+@media screen and (max-width: 400px )
+{
+	/*---------------------------------css phan gio hang---------------------------------*/
+	.show_cart {width: 230px!important;}
+	.top_bar .inner #top_bar_left{width: 70%;}
+	nav.nav_menu {width: 70%;}
+
+	/*-------------------------phan tieu de thuc pham moi ngay...-------------------------*/
+	.tittle-box-center h2{color: #69BD43; font-size: 1.1em; margin-bottom: 10px;}
+
+	/*css phan box san pham moi */
+	.boxProduct_mostNew #box_center_new .product_item .product_img .over a.button {width: 45%; height: 26px; line-height: 26px;}
+
+	/*-------------------------css phan box san pham va box meovat-------------------------*/
+	.panel_footer ul {width: 100%;}
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo{height: 380px!important;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_img {width: 55%;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_detail {width: 40%;}
+
+	.panel-body .new_main ul.box_pd li .blog_img {width: 55%;}
+	.panel-body .new_main ul.box_pd li .blog_detail {width: 40%;}
+
+	/*.panel-body .new_main ul.demo4 li .blog_img {width: 55%;}
+	.panel-body .new_main ul.demo4 li .blog_detail {width: 40%;}
+
+	.panel-body .new_main ul.demo5 li .blog_img {width: 55%;}
+	.panel-body .new_main ul.demo5 li .blog_detail {width: 40%;}*/
+	
+	/*css phan danh muc thuc pham va chi tiet thuc pham trong trang chi tiet thuc pham*/
+	#image_galary #imgMain  img{width:100%; height:200px;}
+	.product__share ul li {margin-bottom: 5px;}
+}
+
+@media screen and ( max-width: 320px)
+{
+	/*-------------------------------phan menu dau tien-------------------------------*/
+	.top_bar .inner #top_bar_left{width: 75%;}
+	nav.nav_menu {width: 90%;}
+
+	/*-------------------------------phan logo, tim kiem va gio hang-------------------------------*/
+	#logo{padding-left: 10px;}
+	#logo img{width: 210px;}
+	#cart_expand{ padding-left: 20px;}
+	.search-form {padding-left: 15px!important;}
+    .search-form .form-wrapper{width: 240px;}
+	.search-form .form-wrapper input[type="text"]{width: 155px; font-size: 11px;}
+	.search-form .form-wrapper input[type="submit"]{width: 65px; font-size: 11px;}
+
+	/*-------------------------phan tieu de thuc pham moi ngay...-------------------------*/
+	div.top_right {height: 70px!important;}
+	div.top_right_tab{display: none;}
+	.tittle-box-center h2{color: #69BD43; font-size: 1em; margin-bottom: 10px;}
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo{height: 410px!important;}
+	#box_sanphammoi .meovat .panel-body .new_main ul.demo li img{height: 150px;}
+
+	/*css phan thuc pham moi*/
+	.boxProduct_mostNew #box_center_new .product_item .product_img {width: 100%;} 
+	#box_product_most-right .box_most_right .highlight .product_item .product_img { width: 90%; }
+	.boxProduct_mostNew #box_center_new .box-content-product .product_item .product_img{width: 90%;}
+
+	/*css phan danh muc thuc pham va chi tiet thuc pham trong trang chi tiet thuc pham*/
+	.header_breadcrumb { height: 80px; overflow: hidden;}
+	.header_breadcrumb ul li a {margin-bottom: 10px;}
+	#image_galary #imgMain  img{width:100%; height:200px;}
+	.product__variants__item  {width: 100%;}
+	.product__share ul li {margin-bottom: 5px;}
+	.product__price span {font-size: 18px;}
+
+

@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tuoisachvvn</title>
+    <link rel="stylesheet" href="../site/css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../site/css/box_tinhot.css" type="text/css">
+	<link rel="stylesheet" href="../site/css/awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/top_menu_2.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/form_login.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/slide_tp.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_gioithieu.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_sanphammoi.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_sanpham_ban.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_doitac.css" type="text/css">
+	<link rel="stylesheet" href="../site/royalslider/royalslider.css" type="text/css">
+    <link type="text/css" href="../site/royalslider/skins/minimal-white/rs-minimal-white.css" rel="stylesheet">
+    <link rel="stylesheet" href="../site/css/danhmucthucpham.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/style.css" type="text/css">
+	<link rel="stylesheet" href="../site/css/responsive.css" type="text/css">
+	<link rel="stylesheet" href="../site/css/responsive_thucpham.css" type="text/css">
+	<script language="javascript" src="../site/js/jqurey/jquery-v2.0.js"></script>
+    <script type="text/javascript" src="../site/js/category_acordition.js"></script>
+    <script language="javascript" src="../site/js/main.js"></script>
+    <script src="../site/js/api-ajax.js"></script> 
+    <script language="javascript" src="../site/js/jquery-box-tin-meovat.min.js"></script>
+	<script language="javascript" src="../site/royalslider/jquery.royalslider.min.js"></script>
+    
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+               <div class="menu_top_bar clearfix">
+                  <a href="#" class="bt-menu-bar"><span class="fa fa-bars"></span></a>
+               </div>
+                <div class="top_bar clearfix">
+                    <div class="inner">
+                        <div id="top_bar_left">
+                            <ul id="menu_primary_items">
+                                <li><a href="#"><span class="fa fa-map-signs"></span> Cơ sở 1 chân cầu T8 - Vĩnh Tuy, Hà Nội</a></li>
+                                <li><a href="#"><span class="fa fa-truck"></span> Giao hàng tận nơi</a></li>
+                                <li><a href="#"><span class="fa fa-credit-card"></span> thanh toán trực tiếp, chuyển khoản</a></li>
+                                <li><a href="#">HotLine:01647858168 - Mail <i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+
+			<div class="wp_inner top_logo">
+    				<div id="logo" ><!-- the logo -->
+                       <a href="#"><img class="tuoisach" src="../site/images/logo.png" alt="webFood"></a>
+                    </div><!-- End logo -->
+
+                     <div class="search-form">
+						<form method="get" action="">
+							<input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" name="key-search" value="" placeholder="Tìm kiếm..." class="search-form__query ui-autocomplete-input">
+							<button type="submit" class="search-form__submit"></button>
+						</form>
+					</div>
+
+					<div id="cart_expand" class="cart "> <!--  load gio hàng -->
+					   <div class="header-cart__button"><a href="#">Giỏ hàng: (0)</a></div>
+					</div> <!--  load gio hàng -->
+
+					<div class="clearfix"></div>
+
+                    <!-- <div  id="search-form">
+                        <form action="" class="form-wrapper" method="get" >
+                            <input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" class="ui-autocomplete-input" placeholder="Thực phẩm bạn tìm là..." value="" name="key-search" id="search"       >
+                            <input id="submit" value="tìm kiếm" type="submit" name="but">
+                        </form>
+                    </div> -->
+			</div>	
+		</div><!--End header-->	
+		
+		<header>
+			<div class="menu_bar">
+				<a class="bt-menu"><span class="fa fa-bars"></span>Menu</a>
+			</div>
+
+			<nav class="wp_inner clearfix">
+				<ul>
+					<li class="active index-li"><a href="<?php echo base_url() ?>"><i class="fa fa-home"></i> TRANG CHỦ </a></li>
+
+                        <li class=""><a href="<?php echo site_url('safety'); ?>"> AN TOÀN THỰC PHẨM</a></li>
+
+                        <li class=""><a href="<?php echo site_url('news'); ?>"> MẸO &amp; KĨ NĂNG</a></li>  
+
+                        <li class="submenu1">
+                           <a href="#"><span class="fa fa-thumbs-o-up"></span> THỰC PHẨM </span></a>
+                           <ul class="children1">
+                                 <li> <a href="#">Thịt bò <span class="fa fa-angle-right"></span></a> </li>
+                                 <li><a href="#">Thịt lợn<span class="fa fa-angle-right"></span></a></li>
+                                 <li><a href="#">Mẹo vặt<span class="fa fa-angle-right"></span></a></li>
+                           </ul>
+                        </li>
+
+                        <li class="submenu1">
+                           <a href="#"><span class="fa fa-thumbs-o-up"></span> THỰC PHẨM </span></a>
+                           <ul class="children1">
+                                 <li> <a href="#">Thịt bò <span class="fa fa-angle-right"></span></a> </li>
+                                 <li><a href="#">Thịt lợn<span class="fa fa-angle-right"></span></a></li>
+                                 <li><a href="#">Mẹo vặt<span class="fa fa-angle-right"></span></a></li>
+                           </ul>
+                        </li>
+
+                        <li class=""><a href="<?php echo site_url('partner'); ?>"> ĐƠN VỊ ĐỐI TÁC</a></li>
+
+                        <!-- li class=""><a href="<?php echo site_url('user/index'); ?>"><i class="fa fa-user" aria-hidden="true"></i> Xin chào: <?php echo $user_info->name ?></a></li>
+                        <li><a class="verify_logout" href="<?php echo site_url('user/logout'); ?>"><i class="fa fa-sign-out" aria-hidden="true"></i> Thoát</a></li>
+                        <li class=""><a href="<?php echo site_url('user/register')?>"><i class="fa fa-user-plus" aria-hidden="true"></i> ĐĂNG KÝ</a></li> -->
+
+                        <li class=""><!-- phần đăng nhập -->
+                            <label for="">
+                                <a class="btn_login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">  
+                                   <i class="fa fa-sign-in" aria-hidden="true"></i> Đăng nhập</a></li>
+                                </a>
+                            </label>
+                            <!-- form đăng nhập của thành viên -->
+                                <div id="id01" class="modal">
+                                      <form class="modal-content animate" method="post" action="<?php echo site_url('user/login'); ?>">
+                                            <div class="imgcontainer">
+                                              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                              <img src="../site/images/img_avatar2.png" alt="Avatar" class="avatar">
+                                            </div>
+
+                                            <div class="container">
+                                              <label><b style="color: #4CAF50;">Email</b></label>
+                                              <input type="email" placeholder="address@gmail.com" name="email" id="email" required>
+
+                                              <label><b style="color: #4CAF50;">Mật Khẩu</b></label>
+                                              <input type="password" placeholder="nhập mật khẩu" name="password" id="password" required>
+                                                
+                                              <button type="submit">Đăng nhập</button>
+                                              <input type="checkbox" checked="checked"> Ghi nhớ tài khoản
+                                            </div>
+
+                                            <div class="container" style="background-color:#f1f1f1">
+                                              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                              <span class="psw">Quên <a href="#">mật khẩu?</a></span>
+                                            </div>
+                                      </form>
+                                </div>
+
+                                <script>
+                                    // Get the modal
+                                    var modal = document.getElementById('id01');
+
+                                    // When the user clicks anywhere outside of the modal, close it
+                                    window.onclick = function(event) {
+                                        if (event.target == modal) {
+                                            modal.style.display = "none";
+                                        }
+                                    }
+                                </script>
+                        </li><!-- phầm đăng nhập -->
+				  </ul>
+			</nav>
+
+		</header>
+
+
+
+		<div id="wp_main_content" class="wp_inner clearfix pd_mobile">
+			<div id="outer">
+
+			<div class="header_breadcrumb">
+				<ul class="breadcrumb">
+					<li><a href="/">Trang chủ</a></li>
+					<!-- blog -->
+				     <li class="active breadcrumb-title"> <i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp; Thịt sạch</li>
+				</ul>
+			</div>
+
+              <!-- phần box thuc pham moi của web ở trang chủ--> 
+               <div id="box_sanphammoi" style="width:100%;  float:left;margin-bottom:15px; margin:0 auto; padding-top:20px; padding-bottom: 20px;">
+                    
+                   <div class="left-product show_mobile">
+
+                       <div class="box-left hide_pd_mobile">
+                          <div class="title tittle-box-left">
+                              <h2><span class="fa fa-bars"></span> Danh mục sản phẩm </h2>
+                          </div>
+                          <div id="accordian"><!-- The content-box -->
+                               <ul class="catalog-main">
+                                  <li class="catalog-sub">
+                                    <a href="#">Thịt tươi</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <ul>
+                                      <li><a href="#">Reports</a></li>
+                                      <li><a href="#">Search</a></li>
+                                      <li><a href="#">Graphs</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    </ul>
+                                  </li>
+
+                                  <!-- we will keep this LI open by default -->
+                                  <li class="catalog-sub" >
+                                    <a href="#">Hải sản tươi</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <ul>
+                                      <li><a href="#">Today's tasks</a></li>
+                                      <li><a href="#">Urgent</a></li>
+                                      <li><a href="#">Overdues</a></li>
+                                      <li><a href="#">Recurring</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    </ul>
+                                  </li>
+
+                                  <li class="catalog-sub">
+                                    <a href="#">Hoa quả tươi</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <ul>
+                                      <li><a href="#">Current Month</a></li>
+                                      <li><a href="#">Current Week</a></li>
+                                      <li><a href="#">Previous Month</a></li>
+                                      <li><a href="#">Previous Week</a></li>
+                                      <li><a href="#">Next Month</a></li>
+                                      <li><a href="#">Next Week</a></li>
+                                      <li><a href="#">Team Calendar</a></li>
+                                      <li><a href="#">Private Calendar</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    </ul>
+                                  </li>
+
+                                  <li class="catalog-sub">
+                                    <a href="#">Đồ khô</a><i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    <ul>
+                                      <li><a href="#">Global favs</a></li>
+                                      <li><a href="#">My favs</a></li>
+                                      <li><a href="#">Team favs</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                          </div><!-- End content-box -->
+                      </div><!-- End box-left -->
+
+                       <div class="box-left">
+                          <div class="box_kinang">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="panel panel-default">
+                                         <div class="panel-heading"> 
+                                           <h2>Thực phẩm khác <span class="fa fa-arrow-right"></span></h2>
+                                          </div>
+                                            <div class="panel-body">
+                                              <div class="row">
+                                                   <div class="new_main">
+                                                     <ul class="demo_tpkhac">
+                                                      
+                                                          <li class="news-item">
+                                                            <div class="blog_img">
+                                                                <a href="#">
+                                                                <img src="http://localhost/tuoisach/upload/images/product/thanglong2.jpg" width="60" class="img-circle" />
+                                                            </a>
+                                                            </div>
+                                                            <div class="blog_detail">
+                                                                <div class="action_pd">
+                                                                  <a class="name_product" href="#">ten thuc pham</a>
+                                                                </div>
+                                                                <p class="price">
+                                                                  <span> 90000 <sup>đ</sup></span>
+                                                                </p>
+                                                            </div>
+                                                          </li>
+
+
+                                                           <li class="news-item">
+                                                            <div class="blog_img">
+                                                                <a href="#">
+                                                                <img src="http://localhost/tuoisach/upload/images/product/thanglong2.jpg" width="60" class="img-circle" />
+                                                            </a>
+                                                            </div>
+                                                            <div class="blog_detail">
+                                                                <div class="action_pd">
+                                                                  <a class="name_product" href="#">ten thuc pham</a>
+                                                                </div>
+                                                                <p class="price">
+                                                                  <span> 90000 <sup>đ</sup></span>
+                                                                </p>
+                                                            </div>
+                                                          </li>
+
+                                                           <li class="news-item">
+                                                            <div class="blog_img">
+                                                                <a href="#">
+                                                                <img src="http://localhost/tuoisach/upload/images/product/thanglong2.jpg" width="60" class="img-circle" />
+                                                            </a>
+                                                            </div>
+                                                            <div class="blog_detail">
+                                                                <div class="action_pd">
+                                                                  <a class="name_product" href="#">ten thuc pham</a>
+                                                                </div>
+                                                                <p class="price">
+                                                                  <span> 90000 <sup>đ</sup></span>
+                                                                </p>
+                                                            </div>
+                                                          </li>
+
+                                                           <li class="news-item">
+                                                            <div class="blog_img">
+                                                                <a href="#">
+                                                                <img src="http://localhost/tuoisach/upload/images/product/thanglong2.jpg" width="60" class="img-circle" />
+                                                            </a>
+                                                            </div>
+                                                            <div class="blog_detail">
+                                                                <div class="action_pd">
+                                                                  <a class="name_product" href="#">ten thuc pham</a>
+                                                                </div>
+                                                                <p class="price">
+                                                                  <span> 90000 <sup>đ</sup></span>
+                                                                </p>
+                                                            </div>
+                                                          </li>
+
+                                                           <li class="news-item">
+                                                            <div class="blog_img">
+                                                                <a href="#">
+                                                                <img src="http://localhost/tuoisach/upload/images/product/thanglong2.jpg" width="60" class="img-circle" />
+                                                            </a>
+                                                            </div>
+                                                            <div class="blog_detail">
+                                                                <div class="action_pd">
+                                                                  <a class="name_product" href="#">ten thuc pham</a>
+                                                                </div>
+                                                                <p class="price">
+                                                                  <span> 90000 <sup>đ</sup></span>
+                                                                </p>
+                                                            </div>
+                                                          </li>
+                                                    </ul>
+                                                </div>
+                                              </div><!-- end row -->
+                                            </div><!-- end panel-body -->
+                                        </div>
+                                    </div><!-- end col -->
+                                </div><!-- end row -->
+                            </div><!-- End box-ki-nang -->
+                         </div><!-- end box-left -->
+                          
+
+                 </div><!-- left-product -->
+
+
+  
+                 <div class="content-product">
+		                   <!-- danh sach thuvc pham theo danh muc -->
+		                   <div class="avatar_img">
+		                   	  <div class="collection__heading">	
+			                   		<img src="../site/images/thit-lon-sach.jpg" alt="Thịt lợn sạch">
+			                   		<h1>Thịt lợn sạch</h1>
+          									<ul class="breadcrumb">
+          										<li><a href="/">Trang chủ &nbsp;</a></li>
+          										<!-- blog -->
+          									     <li class="active breadcrumb-title"> <i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp; Thịt sạch</li>
+          									</ul>
+          							  </div>		
+		                   </div><!-- avatar_img -->
+
+							
+							<div class="wrap_mota">
+								<p>Thịt lợn là một trong những loại thực phẩm phổ biến nhất không chỉ Việt Nam mà còn trên toàn thế giới (Trừ vùng Ả Rập vì họ theo Đạo Hồi, mà đạo hồi lại kiêng ăn thịt lợn :)) ). Đối với chúng ta, thịt lợn là món ăn gần như hàng ngày. Các món ngon từ thịt lợn rất đa dạng và phong phú, mỗi vùng mỗi miền lại có những công thức chế biến độc đáo riêng, từ rất đơn gian đến cầu kỳ.</p>
+							</div><!-- wrap_mota -->
+
+
+							<script language="javascript">
+								$(document).ready(function(){
+									var grid = $("nav > ul > li > a.grid");
+									var list = $("nav > ul > li > a.list");
+
+									if(grid.click(function(){
+										grid.addClass('active');
+										$('.collection-grid').css('display', 'block');
+										list.removeClass('active');
+										$('.collection-list').css('display', 'none');
+										return false;
+									}));
+
+
+									if(list.click(function(){
+										$(this).addClass('active');
+										$('.collection-list').css('display', 'block');
+										grid.removeClass('active');
+										$('.collection-grid').css('display', 'none');
+										return false;
+									}));
+								});
+							</script>
+
+							<div class="collection__content">
+								<div class="collection__toolbar">
+									<nav class="view">
+										<ul>
+											<li>
+												<a href="#" class="grid active"></a>
+											</li>
+											<li>
+												<a href="#" class="list "></a>
+											</li>
+										</ul>
+									</nav>
+									<div class="sortby">
+										<label class="hidden-xs">Sắp xếp theo</label>
+										<select class="sort-by">
+											<option value="default">Mặc định</option>
+											<option value="price-asc">Giá tăng dần</option>
+											<option value="price-desc">Giá giảm dần</option>
+											<option value="created-asc">Mới đến cũ</option>
+											<option value="created-desc">Cũ đến mới</option>
+										</select>
+									</div>
+								</div><!-- collecton__toolbar -->
+
+								<div class="collection-list">
+									<div class="product-item">
+										<div class="product-item__thumbnail">
+											<a href="#" class="product-item__image">
+												<img src="http://localhost/tuoisach/upload/images/product/thanglong2.jpg" alt="THỊT LỢN QUẾ - NẠC VAI">
+											</a>
+										</div>
+
+										<a href="#" class="product-item__name">
+											<h3>THỊT LỢN QUẾ - NẠC VAI</h3>
+										</a>
+										<div class="product-item__summary">
+											<p> Thịt lợn quế đang là xu hướng ngày càng được ưa chuộng bởi sự an toàn và độ sạch, cũng như chất dinh dưỡng mà nó mang lại </p>
+										</div>
+
+										<p class="price">
+											<span>90000 <sup>đ</sup></span>
+											<span class="price_old"> 100000 <sup>đ</sup> </span>
+										</p>
+
+										<div class="product-item__buttons2">
+											<a href="#" >Mua hàng</a>
+											<a href="#">Xem chi tiết</a>
+										</div>
+									</div><!-- product-item -->
+
+									<div class="product-item">
+										<div class="product-item__thumbnail">
+											<a href="#" class="product-item__image">
+												<img src="http://localhost/tuoisach/upload/images/product/thanglong2.jpg" alt="THỊT LỢN QUẾ - NẠC VAI">
+											</a>
+										</div>
+
+										<a href="#" class="product-item__name">
+											<h3>THỊT LỢN QUẾ - NẠC VAI</h3>
+										</a>
+										<div class="product-item__summary">
+											<p> Thịt lợn quế đang là xu hướng ngày càng được ưa chuộng bởi sự an toàn và độ sạch, cũng như chất dinh dưỡng mà nó mang lại </p>
+										</div>
+
+										<p class="price">
+											<span>90000 <sup>đ</sup></span>
+											<span class="price_old"> 100000 <sup>đ</sup> </span>
+										</p>
+
+										<div class="product-item__buttons2">
+											<a href="#" >Mua hàng</a>
+											<a href="#">Xem chi tiết</a>
+										</div>
+									</div><!-- product-item -->
+
+									<div class="product-item">
+										<div class="product-item__thumbnail">
+											<a href="#" class="product-item__image">
+												<img src="http://localhost/tuoisach/upload/images/product/thanglong2.jpg" alt="THỊT LỢN QUẾ - NẠC VAI">
+											</a>
+										</div>
+
+										<a href="#" class="product-item__name">
+											<h3>THỊT LỢN QUẾ - NẠC VAI</h3>
+										</a>
+										<div class="product-item__summary">
+											<p> Thịt lợn quế đang là xu hướng ngày càng được ưa chuộng bởi sự an toàn và độ sạch, cũng như chất dinh dưỡng mà nó mang lại </p>
+										</div>
+
+										<p class="price">
+											<span>90000 <sup>đ</sup></span>
+											<span class="price_old"> 100000 <sup>đ</sup> </span>
+										</p>
+
+										<div class="product-item__buttons2">
+											<a href="#" >Mua hàng</a>
+											<a href="#">Xem chi tiết</a>
+										</div>
+									</div><!-- product-item -->
+								</div><!-- end collection-list -->
+
+
+
+								<div class="collection-grid">
+									<div class="box-sale-content">
+										<div class="owl-hotsale">
+
+											<div class="product_item">
+		                                        <div class="product_img">
+		                                            <div class="over">
+		                                                <p class="title-bd">
+		                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, iure.
+		                                                  <a class="button" href="#">Chi tiết -&gt;</a>
+		                                                </p>
+		                                            </div><!-- over -->
+		                                            <a href="#">
+		                                              <img src="http://localhost/tuoisach/upload/images/product/bi_ngo1.jpg" alt="">
+		                                            </a>  
+		                                        </div><!-- product_img --> 
+		                                        <p class="price">
+                                                      <span> 18,000 <sup>đ</sup></span>
+                                                </p>
+		                                        <a class="button" href="#">Mua Ngay</a>
+		                                        <div class="action_pd">
+		                                          <a class="name_product" href="#">Bí ngô</a>
+		                                        </div>
+		                                    </div><!-- end product-item -->
+
+		                                    <div class="product_item">
+		                                        <div class="product_img">
+		                                            <div class="over">
+		                                                <p class="title-bd">
+		                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, iure.
+		                                                  <a class="button" href="#">Chi tiết -&gt;</a>
+		                                                </p>
+		                                            </div><!-- over -->
+		                                            <a href="#">
+		                                              <img src="http://localhost/tuoisach/upload/images/product/bi_ngo1.jpg" alt="">
+		                                            </a>  
+		                                        </div><!-- product_img --> 
+		                                        <p class="price">
+                                                      <span> 18,000 <sup>đ</sup></span>
+                                                </p>
+		                                        <a class="button" href="#">Mua Ngay</a>
+		                                        <div class="action_pd">
+		                                          <a class="name_product" href="#">Bí ngô</a>
+		                                        </div>
+		                                    </div><!-- end product-item -->
+
+		                                    <div class="product_item">
+		                                        <div class="product_img">
+		                                            <div class="over">
+		                                                <p class="title-bd">
+		                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, iure.
+		                                                  <a class="button" href="#">Chi tiết -&gt;</a>
+		                                                </p>
+		                                            </div><!-- over -->
+		                                            <a href="#">
+		                                              <img src="http://localhost/tuoisach/upload/images/product/bi_ngo1.jpg" alt="">
+		                                            </a>  
+		                                        </div><!-- product_img --> 
+		                                        <p class="price">
+                                                      <span> 18,000 <sup>đ</sup></span>
+                                                </p>
+		                                        <a class="button" href="#">Mua Ngay</a>
+		                                        <div class="action_pd">
+		                                          <a class="name_product" href="#">Bí ngô</a>
+		                                        </div>
+		                                    </div><!-- end product-item -->	
+
+		                                    <div class="product_item">
+		                                        <div class="product_img">
+		                                            <div class="over">
+		                                                <p class="title-bd">
+		                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, iure.
+		                                                  <a class="button" href="#">Chi tiết -&gt;</a>
+		                                                </p>
+		                                            </div><!-- over -->
+		                                            <a href="#">
+		                                              <img src="http://localhost/tuoisach/upload/images/product/bi_ngo1.jpg" alt="">
+		                                            </a>  
+		                                        </div><!-- product_img --> 
+		                                        <p class="price">
+	                                                  <span> 18,000 <sup>đ</sup></span>
+	                                            </p>
+		                                        <a class="button" href="#">Mua Ngay</a>
+		                                        <div class="action_pd">
+		                                          <a class="name_product" href="#">Bí ngô</a>
+		                                        </div>
+		                                    </div>	
+
+										</div><!-- end owl-hotsale -->	
+									</div><!-- end box-sale-content -->
+								</div><!-- end collection-grid -->
+
+							</div><!--  collection__content -->	
+                 </div><!-- End content-product --> 
+
+
+                <!-- box doin tac -->
+                <div id="box_doitac" class="hide_mb_partner" style="width:100%;  float:left;margin-bottom:15px; margin:0 auto; padding-top:5px; padding-bottom: 20px;">
+                    <div class="partner">
+                        <div class="partner-top">
+                           <div class="tittle-box-center">
+                             <span>
+                               <h2>
+                                <a href="#">ĐỐI TÁC CỦA Tuoisachvvn</a>
+                               </h2>
+                             </span>
+                          </div>
+                       </div><!-- End partner-top--> 
+
+                       <div class="partner-bottom">
+                         <div class="img-partner">
+                            <img src="upload/baner_pd/parner/anacook.jpg" alt="">
+                         </div><!-- end partner-botom --> 
+
+                         <div class="img-partner">
+                            <img src="upload/baner_pd/parner/cn.jpg" alt="">
+                         </div><!-- end partner-botom --> 
+
+                         <div class="img-partner">
+                            <img src="upload/baner_pd/parner/veco.jpg" alt="">
+                         </div><!-- end partner-botom --> 
+
+                         <div class="img-partner">
+                            <img src="upload/baner_pd/parner/thaitai.jpg" alt="">
+                         </div><!-- end partner-botom --> 
+                       </div><!-- end partner-bottom -->
+                   </div><!-- end partner -->
+                </div><!-- end doi tac -->
+        
+
+
+              </div> <!-- End outer--> 
+           </div> <!-- End wp_main_content  -->
+
+
+
+
+
+
+           <footer class="footer" id="footer">
+
+              <div class="wp_inner">
+                  <div class="footer_container">
+                      <div class="row_footer_box">
+                           <div id="r1" class="row_box">
+                             <h2>giới thiệu</h2>
+                             <p>Hệ thống cửa hàng thực phẩm sạch Tuoisachvvn chuyên cung cấp thực phẩm sạch uy tín hàng đầu tại Hà Nội</p> 
+                             <p><i class="fa fa-map-marker"></i> Tuoisachvvn 1: số 75, ngõ 479, Lĩnh Lam, Hà Nội </p>
+                             <p><i class="fa fa-map-marker"></i> Tuoisachvvn 2: số 75, ngõ 243, Lĩnh Lam, Hà Nội </p>
+                             <p><i class="fa fa-phone"></i> CS1: (04)62910429 - CS2: (04)63290793</p>
+                             <p><i class="fa fa-envelope"></i> theanh25081995@gmail.com</p>
+                           </div> 
+
+                           <div id="r2" class="row_box">
+                             <h2>về chúng tôi</h2>
+                             <ul>
+                               <li><a href="#">giới thiệu</a></li>
+                               <li><a href="#">tuyển dụng</a></li>
+                               <li><a href="#">tin tức</a></li>
+                               <li><a href="#">liên hệ</a></li>
+                             </ul>
+                           </div>
+
+                           <div id="r3" class="row_box">
+                             <h2>thông tin</h2>
+                             <ul>
+                               <li><a href="#">hình thức thanh toán</a></li>
+                               <li><a href="#">điều khoản dịch vụ</a></li>
+                               <li><a href="#">hợp tác</a></li>
+                               <li><a href="#">tìm kiếm</a></li>
+                             </ul>
+                           </div>
+
+                           <div id="r4" class="row_box">
+                             <h2>quy định và chính sách</h2>
+                             <ul>
+                               <li><a href="#">hướng dẫn mua hàng</a></li>
+                               <li><a href="#">chính sách bảo mật</a> </li>
+                               <li><a href="#">chính sách đổi trả hàng</a></li>
+                               <li><a href="#">chính sách vận chuyển</a></li>
+                             </ul>
+                           </div>
+                      </div><!-- end row_footer -->
+                  </div><!-- end footer_conainer -->
+              </div><!-- end footer_content -->
+
+              <div class="clearfix"></div>
+                    
+              <div class="footer_copy wp_inner">
+                     <p>Author: Tuoisachvvn-vutheanh @Copyright 2017</p>
+              </div><!-- footer_copy -->
+
+           </footer><!-- End footer -->
+
+	 </div><!-- End wrapper -->	
+</body>
+</html>

@@ -1,0 +1,67 @@
+/*css phan content_product*/
+a:hover{ text-decoration: none; color: #fff;}
+.product-content{width:100%; float: left; padding-bottom: 100px; }
+
+#image_galary{width: 100%;}
+#image_galary #imgMain  img{width:100%; height:330px;}
+#image_galary #imgThumnail { width: 100%; margin:10px auto;}
+#image_galary #imgThumnail img {width: 24%; margin-right: 1px;  }
+.product__name {margin: 0;padding: 0px 0px 23px 0px;color: #333333;font-size: 24px;font-weight: 400;text-align: left;}
+.product__summary {margin: 0 0 28px;color: #898989;line-height: 20px;text-align: justify;}
+p#status{text-transform: capitalize; color: #898989; padding-bottom:7px;}
+p#status span{color:#197D07;} 
+.product__price sup{font-size: 18px;}
+.product__price, .product__price > span:first-child {margin: 15px 15px 15px 0;font-family: UVF Metroscript,Helvetica,Arial,sans-serif;font-size: 24px;line-height: 24px;color: #197d07 !important;text-decoration: none !important;}
+.product__price, .product__price > span:last-child {text-decoration: line-through; color: #898989;}
+
+/* phan css so luong  */
+.product__variants{overflow: hidden; margin-bottom: 30px;}
+.product__variants__item {float: left; width: 50%;}
+.product__variants__item label{width: 100%; color: #333333; line-height: 20px; font-weight: 400; margin-bottom: 5px;}
+.product__quantity span {float: left; height: 40px; width: 40px; line-height: 40px; cursor: pointer; text-align: center; border: 1px solid #e1e1e1; margin-right: 4px;}
+.product__quantity input {width: 70px;float: left; height: 40px; margin-right: 4px; border: 1px solid #e1e1e1; text-align: center;}
+.product__add {
+    display: inline-block;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    background-color: #197d07;
+    border-radius: 20px;
+    background-clip: padding-box;
+}
+.product__share ul li{float: left;}
+.product__share ul li a{display: block;height: 40px;margin-right: 5px;padding:0 20px;font-size: 12px;line-height: 40px;color: #898989;border: 1px solid #e1e1e1;border-radius: 5px;background-clip: padding-box;}
+.product__share ul li a:hover{color: #fff;}	
+.product__share ul li.facebook a:before{content: "";display: block;float: left; width: 8px;height: 15px; margin: 12px 5px 0 0;background-image: url(../images/ic-facebook.png);background-repeat: no-repeat;}
+.product__share ul li.facebook a:hover{background-color:#4182d9;border-color:#4182d9; }
+.product__share ul li.facebook a:hover:before{background-image:url(../images/ic-facebook-h.png)}
+
+.product__share ul li.twitter a:before{content: "";display: block;float: left; width: 13px;height: 15px; margin: 14px 5px 0 0;background-image: url(../images/ic-twitter.png);background-repeat: no-repeat;}
+.product__share ul li.twitter a:hover{background-color:#39c2f8;border-color:#39c2f8; }
+.product__share ul li.twitter a:hover:before{background-image:url(../images/ic-twitter-h.png)}
+
+.product__share ul li.google a:before{content: "";display: block;float: left; width: 13px;height: 15px; margin: 14px 5px 0 0;background-image: url(../images/ic-google.png);background-repeat: no-repeat;}
+.product__share ul li.google a:hover{background-color:#f64427;border-color:#f64427; }
+.product__share ul li.google a:hover:before{background-image:url(../images/ic-google-h.png)}
+
+
+/* -------------------------------------css phan tab thong tin------------------------------------- */
+.product_tabs {width: 100%; float: left; margin-bottom: 100px;}
+.product_tabs .tab_product li {display: inline-block; margin-right: 3px;}
+.product_tabs .tab_product li>a.active_tab {background-color: #197d07; color: #fff; border: none;}
+.product_tabs .tab_product li>a {color: #898989; font-weight: 400; font-size: 14px; height: 50px; cursor: pointer; padding:0 20px; line-height: 50px; display: block; text-transform: capitalize; background-clip: padding-box;box-shadow: 0 -2px 7px rgba(0,0,0,.2);}
+.tab_contents .contentTab {box-shadow: 0 0 7px rgba(0,0,0,.2); padding: 30px 25px;}
+.tab_contents .contentTab iframe {width: 100%;}
+
+/* css phan thuc pham lien quan */
+.product_related {width: 100%; float: left; box-shadow: 0 0 7px rgba(0,0,0,.2); padding-bottom: 30px; margin-bottom: 100px;}
+.product_related .product_lienquan {background-color: #197D07;  }
+.product_related .box_heading h2 {float: left; margin:0; padding:0px 0px 0px 5px; line-height: 60px; color: #fff; text-transform: capitalize;}
+.product_related .mobile-hidden_top {float: right; margin-right: 10px; line-height: 60px;}
+.mobile-hidden_content {width: 100%;}
+.mobile_product .product_img {position: relative; width: 90%;margin: 10px auto;margin-bottom: 5px;}

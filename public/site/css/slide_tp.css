@@ -1,0 +1,31 @@
+#outer{width: 100%;}
+div.top_left{
+    float: left;
+    width: 37%;
+    margin-right: 20px;
+    height: 240px;
+}
+div.top_right{
+    width:60%;
+    float:right;
+    height: 240px;
+}
+#HomeSlide1.royalSlider {
+  width: 440px; 
+  height: 240px;
+    overflow:hidden;
+}
+#HomeSlide1.royalSlider img{
+  max-width: 440px;
+  max-height: 240px;
+}
+
+#HomeSlide.royalSlider {
+  width: 710px; 
+  height: 240px;
+    overflow:hidden;
+}
+#HomeSlide.royalSlider img{
+  max-width: 710px;
+  max-height: 240px;
+}

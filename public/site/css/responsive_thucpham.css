@@ -1,0 +1,82 @@
+@media screen and (max-width: 1020px)
+{
+	#box_sanphammoi .show_mobile {width: 60%; margin: 0 20%;}
+	.panel-body .new_main ul.demo li img {width: 80%; margin:0 10%;}
+	.panel-body .new_main ul.demo_tpkhac {height: auto!important;}
+}
+
+
+@media screen and (max-width: 700px)
+{
+	.collection__heading h1 {font-size: 50px;}
+	.collection__heading ul.breadcrumb{top:115px;}
+}
+
+@media screen and (max-width: 620px)
+{
+	#box_sanphammoi .show_mobile {width: 100%; margin: 0;}
+	.panel-body .new_main ul.demo li img {width: 80%; margin:0 10%;}
+
+	.collection-list .product-item {padding:10px 5px;}
+   .collection-list .product-item__thumbnail{width: 80%; margin:0px 10%;}
+   .collection-list .product-item__thumbnail img{width: 90%; margin:0px 5%;}
+   .collection-list span {padding-left: 0px;}
+   .collection-list .product-item__summary {padding:0px 10px;}
+   .collection-list .product-item__buttons2{padding:0px 10px;}
+}
+
+
+@media screen and (max-width: 550px)
+{
+	.collection__heading h1 {font-size: 30px; top: 45px;}
+	.collection__heading ul.breadcrumb{top:95px;}
+}
+
+
+@media screen and (max-width: 500px)
+{
+	/*phan css thuc pham khac*/
+	 #box_sanphammoi .show_mobile .box-left .new_main .demo_tpkhac li {width: 100%;}
+	/*phan css thuc pham khac*/
+
+	/*thuc pham danh muc*/
+	.box-sale-content .owl-hotsale .product_item {width: 100%;}	
+	/*thuc pham danh muc*/
+
+	/*phan css avatar*/
+	.collection__heading img {width: 100%; height: 150px;}
+	.collection__heading h1 {font-size: 30px; top: 45px;}
+	.collection__heading ul.breadcrumb{top:95px;}
+	/*phan css avatar*/
+}
+
+
+@media screen and (max-width: 400px)
+{
+	/*phan css thuc pham theo danh muc list*/
+	 .collection-list .product-item__thumbnail {width: 100%; margin:0px;}
+	 .product_related .box_heading h2 {font-size: 18px;}
+	/*phan css thuc pham theo danh muc list*/
+
+	/*css phan thuc pham lien quan*/
+	.mobile_product {width: 100%;}
+}
+
+@media screen and (max-width:  350px)
+{
+	.product_tabs .tab_product li {width: 100%;}
+	.product_tabs .tab_product li>a {text-align: center;}
+}
+
+
+@media screen and (max-width: 320px)
+{
+	/*phan css thuc pham theo danh muc list*/
+	 .collection-list .product-item__thumbnail {width: 100%; margin:0px;}
+	 .collection-list .product-item__thumbnail img {width: 100%; margin:0px; height: 200px;}
+	/*phan css thuc pham theo danh muc list*/
+	.collection__toolbar .sortby label {margin-left: 15px;}
+
+
+	
+}

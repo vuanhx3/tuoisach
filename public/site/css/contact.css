@@ -1,0 +1,7 @@
+.contact_page {width: 100%; float: left; padding-top: 10px; padding-bottom: 30px;}
+.contact_infomation, .contact_sent {padding: 20px;}
+.box_heading {background-color: #197d07; }
+.box_heading h2 {line-height: 60px; margin: 0; padding: 0 0 0 20px; font-size: 18px; color: #fff;}
+.contact_form {padding-top: 50px;}
+.contact-body {height: 230px; padding: 15px;}
+.style-form-textarea {width: 100%; padding: 15px; line-height: 45px; outline: none; border: 1px solid #ebebeb; border-radius: 3px; background-color: #fafafa;}

@@ -1,0 +1,24 @@
+#box_register{ width: 100%;  float: left; padding-top: 10px; padding-bottom: 30px; margin-top: 30px; margin-bottom: 100px;}
+#dispalay_error { cursor: pointer; color: #197D07; width: 100%; height: 50px; line-height: 50px; background: #66FF66; outline: none; border-radius: 3px; text-align: center; margin-bottom: 15px; font-weight: 600; font-size: 15px;}
+.style-form{padding:20px; box-shadow: 0 0 7px rgba(0,0,0,.2);}
+.style-form-group {margin-bottom: 20px; overflow: hidden;}
+.style-form-group h2 {margin: 0; font-size: 18px; font-weight: 700; text-transform: uppercase; color: #3d3d3d;}
+form{display: block; margin-top: 0em;}
+.style-form-group {margin-bottom: 20px; overflow: hidden;}
+
+.style-form-group  label{width: 100%; display: block; padding: 0 0 10px;  font-size: 12px; font-weight: 400; color: #898989; }
+.style-form-text { height: 45px; line-height: 45px; padding: 0 15px; width: 100%; outline: none; border: 1px solid #ebebeb; border-radius: 3px; background-color: #fafafa; }
+.style-form-submit {display: inline-block; height: 45px; line-height: 45px; padding: 0 23px; text-align: center; outline: none; color: #fff;  background-color: #5f8900; cursor: pointer; border-radius: 3px; border: none; margin-left: 5px; margin-bottom: 5px; }
+a.style-form-submit:hover{color: #fff;}
+
+
+/* -------------------------css phan chinh sua thong tin thanh vien------------------------- */
+.style-form h2{cursor: pointer;}
+#edit_user{color: #197D07; font-size: 15px;}
+#edit_register {display: none;}
+
+/*-------------------------------css phan don hang cua thanh vien-------------------------------*/
+.transaction{margin-top: 50px;}
+.transaction p {color: #898989;}
+
+

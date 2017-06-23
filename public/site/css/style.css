@@ -1,0 +1,138 @@
+body {
+	color: #000;
+	font-family: Helvetica;
+	background: url(../images/oli2.png);
+	font-size: 14px;
+	line-height: 21px;
+}
+h1 {font-size: 1.8em}
+h2 {font-size: 1.5em}
+h3 {font-size: 1.2em}
+a:hover {text-decoration: none;}
+.pagination_page { margin: auto; width: auto; text-align: center; margin-top: 30px; }
+.pagination_page {
+    width: 100%;
+    display: block;
+    padding: 5px 10px;
+    float:right;
+}
+.pagination_page a {
+    background: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 #eaeaea, 0 1px 0 #ffffff inset;
+    color: #717171;
+    display: inline-block;
+    float: left;
+    font-weight: 700;
+    line-height: 25px;
+    margin-right: 4px;
+    min-height: 25px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.pagination_page strong{
+    background: #f3f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 #eaeaea, 0 1px 0 #ffffff inset;
+    color: #197D07;
+    display: inline-block;
+    float: left;
+    font-weight: 700;
+    line-height: 25px;
+    margin-right: 4px;
+    min-height: 25px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#wrapper{width: 100%;}
+#box_slide{width: 100%; float:left;margin-bottom:15px; margin:0 auto; padding-top:5px; padding-bottom: 20px;}
+#box_gioithieu{width:100%;  float:left;margin-bottom:15px; margin:0 auto; padding-top:5px; padding-bottom: 20px;}
+#box_sanphammoi{width:100%;  float:left;margin-bottom:15px; margin:0 auto; padding-top:5px; padding-bottom: 20px;}
+#box_doitac {width:100%;  float:left;margin-bottom:15px; margin:0 auto; padding-top:5px; padding-bottom: 20px;}
+#back_to_top {bottom: 30px;color: #666; z-index: 1000; cursor: pointer;padding: 5px;position: fixed;right: 10px;text-align: center;text-decoration: none;width: auto;}
+
+.top_logo{background: #ffffff; padding-top:10px; padding-bottom: 10px;}
+
+.wp_inner {max-width: 1204px; margin:0 auto; display: block; }
+.thumb { overflow: hidden; display: block;}
+.thumb img { width: 100%; display: block;}
+
+/* style top-bar */
+.menu_top_bar {display: none;  background-color: #197D07;}
+.menu_top_bar a {width: 20%; float: left;}
+.menu_top_bar ul {width: 80%; float: right;}
+.menu_top_bar ul li {display: inline-block; position: relative; float: right;}
+.menu_top_bar ul li a { text-align: center;}
+
+#nav_left li{border-right: 1px solid #464646; }
+
+.top_bar { width: 100%; height: 35px; background: #333333; z-index: 1000;}
+.top_bar .inner {width: 1204px; margin:0 auto; height: 35px;}
+.top_bar .inner #top_bar_left {width: 100%; float: left;}
+.top_bar .inner #top_bar_left ul li {display: inline-block; line-height: 35px; position: relative; }
+.top_bar .inner #top_bar_left ul li a:hover {background: #555555; transition: 0.2s; color: #ffffff;}
+.top_bar .inner #top_bar_left ul li a {color: #acacac; text-transform: uppercase; display: block; padding:0px 10px; font-size: 13px;}
+.top_bar .inner #top_bar_left ul li a span {margin-right: 10px; }
+
+
+/* ---------------------------------------------------style header--------------------------------------------------- */
+#header {width:100% ;background: #ffffff; }
+.menu_bar {display: none;}
+header {width: 100%;}
+header nav {width: 100%;  background: #197D07; z-index: 1000; }
+header nav ul {width: 100%; float: left; z-index: 1000; padding:0 5.5%;}
+header nav .box_search {width: 25%; float: right;}
+header nav ul li {display: inline-block; position: relative; height: 42px;  }
+header nav ul li:hover {background: #66CC66; }
+header nav ul li a {color: #fff; font-size: 13px; display: block; padding: 10px; text-transform: uppercase; }
+header nav ul li a:hover{color: #ffffff; text-decoration: none;}
+header nav ul li a span {margin-right: 10px;}
+header nav ul li:hover .children1 {display: block; }
+header nav ul li .children1 {display: none; background: #197D07; position: absolute; z-index: 1000; width: 200%;} 
+header nav ul li .children1 li {display: block; border-bottom: 1px solid #ccc; overflow: hidden;}
+header nav ul li .children1 li:last-child{border-bottom: none;}
+header nav ul li .children1 li a {display: block;}
+header nav ul li .children1 li a span {float: right; margin-right: 0; top: 4px; position: relative;}
+.nav_shadown {background: url(../images/nav-shadow.png) no-repeat;  width: 100%; height: 19px; margin: -2px auto 0; position: relative; z-index: 1;}
+/* .fixed{position: fixed; top:0; width:20%!important;} */
+
+/* style breaking_new and search */
+/* .breaking_new_search {width:100%; padding-top:20px; } */
+
+
+/* --------------------------------------------style main_content noi dung o giua--------------------------------------------*/
+#wp_main_content {background: #fff; padding:5px 10px;}
+#content { width: 70%;  float: left; padding-right: 15px;}
+#sidebar { width: 30%;  float: right; padding-left: 15px;}
+
+.title_page { padding-bottom: 10px; }
+.title_widget { padding-bottom: 8px; color: #404040;}
+.group_title  { margin-bottom: 20px;}
+#wp_list_more {padding-top: 20px; margin-top: 20px; border-top: 1px solid #f5f5f5;}
+#list_more li {float: left; width: 30%; margin-right: 5%; margin-bottom: 20px;}
+#list_more  li:nth-child(3n) { margin-right: 0px;}
+#list_more h3.title{ color: #404040;}
+
+.widget {margin-bottom: 20px; padding: 15px; background: #eee;}
+.not_important {background-color: #E8C2B0;}
+.detail_page p {margin: 5px 0 10px 0px; text-align: justify;}
+
+/*style footer*/
+.footer{background: #ffffff; border-top: 1px solid #e1e1e1; }
+.footer .footer_container{width: 100%; padding-top: 50px; padding-left: 25px; padding-bottom: 55px; float: left;}
+.footer .footer_container .row_footer_box {width: 100%; float: left;}
+#r1{width: 40%; padding-right: 5%; }
+#r2{width: 20%;}
+#r3{width: 20%;}
+#r4{width: 20%;}
+.footer  .footer_container .row_footer_box .row_box{float: left;}
+.footer  .footer_container .row_footer_box .row_box h2{margin: 0 0 15px;padding: 0; font-size: 15px;font-weight: 550 ;line-height: 20px;text-transform: uppercase;color: #252525;}
+.footer  .footer_container .row_footer_box .row_box p{font-size: 14px; line-height: 20px; margin-bottom: 10px; color: #898989;}
+.footer  .footer_container .row_footer_box .row_box ul li a{color: #898989; font-size: 14px; display: block; line-height: 36px; text-transform: capitalize;}
+.footer  .footer_container .row_footer_box .row_box ul li a:hover{color: #197D07;}
+
+.footer .footer_copy{margin:0px auto;  padding: 10px; border-top: 1px solid #e1e1e1;  }
+.footer .footer_copy p{color: #898989;}

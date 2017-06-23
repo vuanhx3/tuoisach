@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tuoisachvvn</title>
+    
+    <link rel="stylesheet" href="../site/css/box_tinhot.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/top_menu_2.css" type="text/css">
+     <link rel="stylesheet" href="../site/css/form_login.css" type="text/css"> 
+    <link rel="stylesheet" href="../site/css/slide_tp.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_gioithieu.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_sanphammoi.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_sanpham_ban.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/box_doitac.css" type="text/css">
+    <link rel="stylesheet" href="../site/royalslider/royalslider.css" type="text/css">
+    <link type="text/css" href="../site/royalslider/skins/minimal-white/rs-minimal-white.css" rel="stylesheet">
+    <link rel="stylesheet" href="../site/css/danhmucthucpham.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/chitietthucpham.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/register.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/checkout.css" type="text/css">
+    <link rel="stylesheet" href="../site/css/style.css" type="text/css">
+  <link rel="stylesheet" href="../site/css/responsive.css" type="text/css">
+  <link rel="stylesheet" href="../site/css/responsive_thucpham.css" type="text/css">
+  <script type="text/javascript" src="../site/css/bootstrap/js/bootstrap.js"></script>
+
+    
+  <link rel="stylesheet" href="../site/jqzoom_ev/css/jquery.jqzoom.css" type="text/css">
+
+    <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../site/js/category_acordition.js"></script>
+    <script type="text/javascript" src="../site/css/bootstrap/js/bootstrap.js"></script>
+    <script language="javascript" src="../site/js/main.js"></script>
+    <script src="../site/js/api-ajax.js"></script> 
+    <script language="javascript" src="../site/js/jquery-box-tin-meovat.min.js"></script>
+    <script language="javascript" src="../site/royalslider/jquery.royalslider.min.js"></script>
+
+    
+    
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+               <div class="menu_top_bar clearfix">
+                  <a href="#" class="bt-menu"><span class="fa fa-bars"></span></a>
+               </div>
+
+               <script language="javascript">
+                 $(document).ready(function(){
+                    $('.bt-menu > span').click(function(){
+                      var open = $(this).attr('class');
+                      if(open == 'fa fa-bars')
+                      {
+                        $(this).removeClass('fa-bars').addClass('fa-times');
+                      }else if(open == 'fa fa-times')
+                      {
+                        $(this).removeClass('fa-times').addClass('fa-bars');
+                      }else{
+                        $(this).removeClass('fa-times').addClass('fa-bars');
+                      }
+                    });
+                 });
+               </script>
+
+                <div class="top_bar clearfix">
+                    <div class="inner">
+                        <div id="top_bar_left">
+                            <ul id="menu_primary_items">
+                                <li><a href="#"><span class="fa fa-map-signs"></span> Cơ sở 1 chân cầu T8 - Vĩnh Tuy, Hà Nội</a></li>
+                                <li><a href="#"><span class="fa fa-truck"></span> Giao hàng tận nơi</a></li>
+                                <li><a href="#"><span class="fa fa-credit-card"></span> thanh toán trực tiếp, chuyển khoản</a></li>
+                                <li><a href="#">HotLine:01647858168 - Mail <i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+
+      <div class="wp_inner top_logo">
+            <div id="logo" ><!-- the logo -->
+                       <a href="#"><img class="tuoisach" src="../site/images/logo.png" alt="webFood"></a>
+                    </div><!-- End logo -->
+
+                     <div class="search-form">
+            <form method="get" action="">
+              <input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" name="key-search" value="" placeholder="Tìm kiếm..." class="search-form__query ui-autocomplete-input">
+              <button type="submit" class="search-form__submit"></button>
+            </form>
+          </div>
+
+          <div id="cart_expand" class="cart "> <!--  load gio hàng -->
+             <div class="header-cart__button"><a href="#">Giỏ hàng: (0)</a></div>
+          </div> <!--  load gio hàng -->
+
+          <div class="clearfix"></div>
+
+                    <!-- <div  id="search-form">
+                        <form action="" class="form-wrapper" method="get" >
+                            <input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" class="ui-autocomplete-input" placeholder="Thực phẩm bạn tìm là..." value="" name="key-search" id="search"       >
+                            <input id="submit" value="tìm kiếm" type="submit" name="but">
+                        </form>
+                    </div> -->
+      </div>  
+    </div><!--End header--> 
+    
+    <header>
+      <div class="menu_bar">
+        <a class="bt-menu"><span class="fa fa-bars"></span>Menu</a>
+      </div>
+
+      <nav class="nav_menu wp_nav clearfix">
+        <ul>
+          <li class="active index-li"><a href="<?php echo base_url() ?>"><i class="fa fa-home"></i> TRANG CHỦ </a></li>
+
+                        <li class=""><a href="<?php echo site_url('safety'); ?>"> AN TOÀN THỰC PHẨM</a></li>
+
+                        <li class=""><a href="<?php echo site_url('news'); ?>"> MẸO &amp; KĨ NĂNG</a></li>  
+
+                        <li class="submenu1">
+                           <a href="#"><span class="fa fa-thumbs-o-up"></span> THỰC PHẨM </span></a>
+                           <ul class="children1">
+                                 <li> <a href="#">Thịt bò <span class="fa fa-angle-right"></span></a> </li>
+                                 <li><a href="#">Thịt lợn<span class="fa fa-angle-right"></span></a></li>
+                                 <li><a href="#">Mẹo vặt<span class="fa fa-angle-right"></span></a></li>
+                           </ul>
+                        </li>
+
+                        <li class="submenu1">
+                           <a href="#"><span class="fa fa-thumbs-o-up"></span> THỰC PHẨM </span></a>
+                           <ul class="children1">
+                                 <li> <a href="#">Thịt bò <span class="fa fa-angle-right"></span></a> </li>
+                                 <li><a href="#">Thịt lợn<span class="fa fa-angle-right"></span></a></li>
+                                 <li><a href="#">Mẹo vặt<span class="fa fa-angle-right"></span></a></li>
+                           </ul>
+                        </li>
+
+                        <li class=""><a href="<?php echo site_url('partner'); ?>"> ĐƠN VỊ ĐỐI TÁC</a></li>
+
+                        <!-- li class=""><a href="<?php echo site_url('user/index'); ?>"><i class="fa fa-user" aria-hidden="true"></i> Xin chào: <?php echo $user_info->name ?></a></li>
+                        <li><a class="verify_logout" href="<?php echo site_url('user/logout'); ?>"><i class="fa fa-sign-out" aria-hidden="true"></i> Thoát</a></li>
+                        <li class=""><a href="<?php echo site_url('user/register')?>"><i class="fa fa-user-plus" aria-hidden="true"></i> ĐĂNG KÝ</a></li> -->
+
+                        <li class=""><!-- phần đăng nhập -->
+                            <label for="">
+                                <a class="btn_login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">  
+                                   <i class="fa fa-sign-in" aria-hidden="true"></i> Đăng nhập</a></li>
+                                </a>
+                            </label>
+                            <!-- form đăng nhập của thành viên -->
+                                <div id="id01" class="modal">
+                                      <form class="modal-content animate" method="post" action="<?php echo site_url('user/login'); ?>">
+                                            <div class="imgcontainer">
+                                              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                              <img src="../site/images/img_avatar2.png" alt="Avatar" class="avatar">
+                                            </div>
+
+                                            <div class="container">
+                                              <label><b style="color: #4CAF50;">Email</b></label>
+                                              <input type="email" placeholder="address@gmail.com" name="email" id="email" required>
+
+                                              <label><b style="color: #4CAF50;">Mật Khẩu</b></label>
+                                              <input type="password" placeholder="nhập mật khẩu" name="password" id="password" required>
+                                                
+                                              <button type="submit">Đăng nhập</button>
+                                              <input type="checkbox" checked="checked"> Ghi nhớ tài khoản
+                                            </div>
+
+                                            <div class="container" style="background-color:#f1f1f1">
+                                              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                              <span class="psw">Quên <a href="#">mật khẩu?</a></span>
+                                            </div>
+                                      </form>
+                                </div>
+
+                                <script>
+                                    // Get the modal
+                                    var modal = document.getElementById('id01');
+
+                                    // When the user clicks anywhere outside of the modal, close it
+                                    window.onclick = function(event) {
+                                        if (event.target == modal) {
+                                            modal.style.display = "none";
+                                        }
+                                    }
+                                </script>
+                        </li><!-- phầm đăng nhập -->
+          </ul>
+      </nav>
+
+    </header>
+
+ <form action="" method="">
+      <div class="container">
+          
+          <div class="trim_main"></div>
+
+          <div class="main_checkout">
+             <div class="row">
+
+                <div class="col-md-4 col-sm-12 customer_info">
+                   <div class="form-group">
+                     <h2>Thông tin mua hàng</h2>
+                   </div><!-- end form_group -->
+
+                   <div class="form-group">
+                     <a style="color: #2a9dcc!important;" href="#">Đăng ký tài khoản mua hàng</a>
+                     <span style="padding: 0px 5px;"> / </span>
+                     <a style="color: #2a9dcc!important;" href="#">Đăng nhập</a>
+                   </div><!-- end form-group -->
+                    
+                   <hr class="divider">
+
+                   <div class="form-group has-error">
+                      <input type="email" class="form-control" value="" name="email" placeholder="Email" required >
+
+                       <div class="help-block with-errors">
+                          <ul class="list-unstyled">
+                            <li>  </li>
+                          </ul>
+                       </div><!-- has-error -->
+                   </div><!-- end form-group -->
+
+                   
+
+                   <div class="billing">
+                          <div class="form-group">
+                              <a style="color: #2a9dcc!important;" href="#">Thông tin thanh toán và nhận hàng</a>
+                          </div><!-- end form-group -->
+
+                          <!-- truong ho va ten -->
+                          <div class="form-group has-error">
+                              <input type="text" class="form-control" value="" name="name" placeholder="Họ và tên" required >
+
+                              <div class="help-block with-errors">
+                                <ul class="list-unstyled">
+                                  <li>  </li>
+                                </ul>
+                              </div><!-- has-error -->
+                          </div><!-- end form-group -->
+                          
+
+                          <!-- truong so dien thoai -->
+                          <div class="form-group">
+                              <input type="text" value=""  name="phone" class="form-control" placeholder="Số điện thoại" >
+                              <div class="help-block with-errors"></div>
+                          </div>
+
+
+                           <!-- truong dia chi -->
+                          <div class="form-group">
+                              <input type="text" value=""  name="address" class="form-control" placeholder="Địa chỉ" >
+                              <div class="help-block with-errors"></div>
+                          </div>
+
+
+                          <!-- truong chon tinh thanh -->
+                          <div class="form-group has-error">
+                              <div class="next-select__wrapper">
+                                  <select id="tinh"  name="tinh" class="form-control next-select" required="" >
+                                      <option value="">--- Chọn Tỉnh thành ---</option>
+                                      <option value="1">Hà Nội</option>
+                                      <option value="2">TP Hồ Chí Minh</option>
+                                  </select>
+                              </div><!-- next-select__wrapper -->
+
+                              <div class="help-block with-errors">
+                                 <ul class="list-unstyled">
+                                   <li>  </li>
+                                 </ul>
+                              </div><!-- help-block with-errors -->
+                          </div>
+
+                          <!-- truong chon huyen -->
+                          <div class="form-group">
+                              <div class="next-select__wrapper">
+                                  <select id="huyen"  name="huyen" class="form-control next-select"  >
+                                      <option value="">--- Chọn quận huyện ---</option>
+                                      <option value="1">Hà Nội</option>
+                                      <option value="2">TP Hồ Chí Minh</option>
+                                  </select>
+                              </div><!-- next-select__wrapper -->
+                          </div><!-- end form-group -->
+                          
+                          <div class="form-group">
+                              <textarea name="note" value="" class="form-control" placeholder="Ghi chú"></textarea>
+                          </div><!-- end form-group -->   
+                   </div><!-- end billing -->
+                </div><!-- col-md-4 col-sm-12 -->
+
+
+                <div class="col-md-4 col-sm-12">
+                   <div class="shipping">
+                      <div class="form-group">
+                          <h2>
+                            <label style="margin-bottom:15px;" class="control-label">Vận chuyển</label>
+                          </h2>
+                          <div class="next-select__wrapper">
+                              <select  name="ShippingMethod"  class="form-control next-select">
+                                <option fee="40000" value="165409,0">Giao hàng tận nơi - 40.000₫</option>
+                              </select>
+                          </div>
+                      </div><!-- end form-group -->
+                   </div><!-- end shipping -->
+
+                    <div class="form-group payment-method has-error">
+                        <h2>
+                          <label style="margin-bottom:15px;" class="control-label">Thanh toán</label>
+                        </h2>
+
+                        <div class="next-select__wrapper">
+                          <div class="form-item">
+                              <select class="form-control next-select" name="payment" required>
+                                 <option value="">----- Chọn cổng thanh toán -----</option>
+                                  <option value="offline">Thanh toán khi nhận hàng</option>
+                                 <option value="baokim">Bảo Kim</option>
+                                 <option value="nganluong">Ngân Lượng</option>
+                              </select>
+                              <div class="image-payment">
+                                  <img src="http://localhost/webfood/public/site/images/payment/baokim.png" alt="Bảo kim">
+                                  <img src="http://localhost/webfood/public/site/images/payment/nganluong.png" alt="Ngân lượng">
+                              </div>
+                              <div class="error" id="payment_error"></div>
+                          </div><!-- end fomr-item -->  
+                        </div><!-- end next-select__wrapper -->
+                   </div><!-- end form-group -->
+                </div><!-- col-md-4 col-sm-12 -->
+
+
+                <div class="col-md-4 col-sm-12 order_info">
+                   <div class="order-summary">
+                      <div class="order-header">
+                          <h2>
+                            <label class="control-label" >Đơn hàng</label>
+                            <label class="control-label" >(3)</label>
+                          </h2>
+                      </div><!-- end order-header -->
+
+                      <div class="order-items">
+                           <div class="summary-body">
+                              <div class="summary-product-list">
+                                  <ul class="product_list">
+
+                                      <li class="product product-has-image clearfix">
+                                          <div class="product-thumbnail pull-left">
+                                              <div class="product-thumbnail__wrapper">
+                                                 <img src="" alt="CÁ CHÉP SÔNG ĐÀ" class="product-thumbnail__image">
+                                              </div>
+                                              <span class="product-thumbnail__quantity" aria-hidden="true">2</span>
+                                          </div>
+
+                                          <div class="product-info pull-left">
+                                              <span class="product-info-name">
+                                                  <strong>CÁ CHÉP SÔNG ĐÀ</strong>
+                                              </span>
+                                          </div>
+
+                                          <strong class="product-price pull-right">
+                                              600.000₫
+                                          </strong>
+                                      </li>
+
+                                      <li class="product product-has-image clearfix">
+                                          <div class="product-thumbnail pull-left">
+                                              <div class="product-thumbnail__wrapper">
+                                                 <img src="" alt="CÁ CHÉP SÔNG ĐÀ" class="product-thumbnail__image">
+                                              </div>
+                                              <span class="product-thumbnail__quantity" aria-hidden="true">2</span>
+                                          </div>
+
+                                          <div class="product-info pull-left">
+                                              <span class="product-info-name">
+                                                  <strong>CÁ CHÉP SÔNG ĐÀ</strong>
+                                              </span>
+                                          </div>
+
+                                          <strong class="product-price pull-right">
+                                              600.000₫
+                                          </strong>
+                                      </li>
+
+                                  </ul>
+                              </div><!-- summary-product-list -->
+                           </div><!-- summary-body --> 
+
+                            <div class="summary-section">
+                               <a style="color: #2a9dcc;" href="javascript:void(0)" class="more" > Nhập mã giảm giá </a>
+
+                               <div class="form-group hide-code">
+                                  <div class="input-group">
+                                    <input  name="code" type="text" class="form-control" placeholder="Nhập mã giảm giá">
+                                    <span class="input-group-btn">
+                                        <button bind-event-click="caculateShippingFee()" class="btn btn-primary event-voucher-apply" type="button">Áp dụng</button>
+                                    </span>
+                                  </div><!-- input-group -->
+                               </div><!-- end form-group -->
+                            </div><!-- end summary-section -->   
+                      </div> <!-- order-items --> 
+
+
+                      <div class="summary-section">
+                          <div class="total_line total_subtotal clearfix">
+                               <span class="total-line-name pull-left">
+                                  Tạm tính
+                               </span>   
+
+                               <span class="total-line-subprice pull-right">860.000₫</span>
+                          </div><!-- total_line -->
+
+                          <div class="total_line total_shipping clearfix">
+                               <span class="total-line-name pull-left">
+                                  Phí vận chuyển
+                               </span>   
+
+                               <span class="total-line-subprice pull-right">40.000₫</span>
+                          </div><!-- total_line -->
+
+                          <div class="total-line-total clearfix">
+                              <span class="total-line-name pull-left">Tổng cộng</span>
+                              <span class="total-line-price pull-right"> 900.000đ </span>
+                          </div><!-- total-line-total -->    
+                      </div><!-- summary-section -->
+
+                   </div><!-- end order-summary -->
+
+
+                  <div class="form-group clearfix">
+                      <button class="btn btn-primary col-md-12 mt10 btn-checkout" type="button"  value=""> ĐẶT HÀNG </button>
+                  </div>
+
+                </div><!-- col-md-4 col-sm-12 order_info -->
+             </div>
+          </div><!-- end main_checkout -->
+      </div><!-- end container -->                      
+ </form> 
+  
+
+
+
+
+
+
+           <footer class="footer" id="footer">
+
+              <div class="wp_inner">
+                  <div class="footer_container">
+                      <div class="row_footer_box">
+                           <div id="r1" class="row_box">
+                             <h2>giới thiệu</h2>
+                             <p>Hệ thống cửa hàng thực phẩm sạch Tuoisachvvn chuyên cung cấp thực phẩm sạch uy tín hàng đầu tại Hà Nội</p> 
+                             <p><i class="fa fa-map-marker"></i> Tuoisachvvn 1: số 75, ngõ 479, Lĩnh Lam, Hà Nội </p>
+                             <p><i class="fa fa-map-marker"></i> Tuoisachvvn 2: số 75, ngõ 243, Lĩnh Lam, Hà Nội </p>
+                             <p><i class="fa fa-phone"></i> CS1: (04)62910429 - CS2: (04)63290793</p>
+                             <p><i class="fa fa-envelope"></i> theanh25081995@gmail.com</p>
+                           </div> 
+
+                           <div id="r2" class="row_box">
+                             <h2>về chúng tôi</h2>
+                             <ul>
+                               <li><a href="#">giới thiệu</a></li>
+                               <li><a href="#">tuyển dụng</a></li>
+                               <li><a href="#">tin tức</a></li>
+                               <li><a href="#">liên hệ</a></li>
+                             </ul>
+                           </div>
+
+                           <div id="r3" class="row_box">
+                             <h2>thông tin</h2>
+                             <ul>
+                               <li><a href="#">hình thức thanh toán</a></li>
+                               <li><a href="#">điều khoản dịch vụ</a></li>
+                               <li><a href="#">hợp tác</a></li>
+                               <li><a href="#">tìm kiếm</a></li>
+                             </ul>
+                           </div>
+
+                           <div id="r4" class="row_box">
+                             <h2>quy định và chính sách</h2>
+                             <ul>
+                               <li><a href="#">hướng dẫn mua hàng</a></li>
+                               <li><a href="#">chính sách bảo mật</a> </li>
+                               <li><a href="#">chính sách đổi trả hàng</a></li>
+                               <li><a href="#">chính sách vận chuyển</a></li>
+                             </ul>
+                           </div>
+                      </div><!-- end row_footer -->
+                  </div><!-- end footer_conainer -->
+              </div><!-- end footer_content -->
+
+              <div class="clearfix"></div>
+                    
+              <div class="footer_copy wp_inner">
+                     <p>Author: Tuoisachvvn-vutheanh @Copyright 2017</p>
+              </div><!-- footer_copy -->
+
+           </footer><!-- End footer -->
+
+   </div><!-- End wrapper --> 
+</body>
+</html>

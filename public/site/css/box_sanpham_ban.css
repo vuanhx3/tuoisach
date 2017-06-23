@@ -1,0 +1,93 @@
+	/*-----------------------------css phan box product sale dau-----------------------------*/
+	.content-product section{margin-bottom: 40px; box-shadow: 0 0 10px #ccc;}
+	.content-product section.product-sale{width: 100%; float: left;}
+	.box_unhide_sale {width: 100%;}
+	section.product-sale .box-sale-heading{width: 100%; overflow: hidden;}
+	section.product-sale .box-sale-content{width: 100%; padding:5px; overflow: hidden;}
+
+	/*css box slide  hoa qua*/
+	.panel-body .new_main ul.demo_hoaqua { width: 100%;overflow: hidden;height: 390px!important;}
+	.panel-body .new_main ul.demo_hoaqua li {width: 100%; padding: 30px 0 20px 15px; float: left; border-bottom: 1px solid #e1e1e1;} 
+	.panel-body .new_main ul.demo_hoaqua li:last-child{border-bottom: none;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_img {width: 40%; margin-right: 2%; float: left;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_img img {width: 95%;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_detail {width: 58%; float: left;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_detail .action_pd  {font-size: 16px; padding-bottom: 2px;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_detail .action_pd a {color: #444444;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_detail .action_pd a:hover {color: #197D07;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_detail .price .price-old {text-decoration: line-through; color: #acacac;}
+	.panel-body .new_main ul.demo_hoaqua li .blog_detail .price span {color: #197D07;}
+
+	/*css box slide  box san pham khac*/
+	.panel-body .new_main ul.demo_tpkhac { width: 100%;overflow: hidden;height: 610px!important;}
+	.panel-body .new_main ul.demo_tpkhac li {width: 100%; padding: 30px 0 20px 15px; float: left; border-bottom: 1px solid #e1e1e1;} 
+	.panel-body .new_main ul.demo_tpkhac li:last-child{border-bottom: none;}
+	.panel-body .new_main ul.demo_tpkhac li .blog_img {width: 40%; margin-right: 2%; float: left;}
+	.panel-body .new_main ul.demo_tpkhac li .blog_img img {width: 95%;}
+	.panel-body .new_main ul.demo_tpkhac li .blog_detail {width: 58%; float: left;}
+	.panel-body .new_main ul.demo_tpkhac li .blog_detail .action_pd  {font-size: 16px; padding-bottom: 2px;}
+	.panel-body .new_main ul.demo_tpkhac li .blog_detail .action_pd a {color: #444444;}
+	.panel-body .new_main ul.demo_tpkhac li .blog_detail .action_pd a:hover {color: #197D07;}
+	.panel-body .new_main ul.demo_tpkhac li .blog_detail .price .price-old {text-decoration: line-through; color: #acacac;}
+	.panel-body .new_main ul.demo_tpkhac li .blog_detail .price span {color: #197D07;}
+
+	/*-----------------------------------css fanPage facebook-----------------------------------*/
+	.fanPage {width: 100%; float: left; min-height: 250px; box-shadow: 0 0 10px #ccc; position: relative;}
+
+	/*------------------------css phan tieu de chung cho box-sale con------------------------*/
+	.box-sale-title{width: 100%;  background-color:#197D07; float: left; }
+	.box-sale-title h3{ float: left; line-height: 50px; margin: 0px; padding: 0 0 0 20px; color: #fff;}
+	.box-sale-title .nav-box-sale{float: right;}
+	.box-sale-title .nav-box-sale ul li {float: left;}
+	.box-sale-title .nav-box-sale ul li a {display: block; margin-right: 30px; font-size: 14px; line-height: 50px; color: #fff;}
+	.box-sale-title .nav-box-sale ul li a:hover{color: yellow;} 
+
+	/*-----------------------------------css phan san pham-----------------------------------*/
+	.box-sale-content .owl-hotsale{width: 100%; margin-bottom:0px;} 
+	.box-sale-content .owl-hotsale .product_item{width: 25%; float: left; border:1px solid #ccc;}
+	.box-sale-content .owl-hotsale .product_item .product_img{position: relative; width: 90%; margin:10px auto; margin-bottom: 5px;}
+
+	/*css phan box thu nho san pham duoi dang slide thang dung*/
+	.box_hide_md_sale{display: none;}
+	.panel-body .new_main ul.box_pd { width: 100%;overflow: hidden;height: 390px!important;}
+	.panel-body .new_main ul.box_pd li {width: 100%; padding: 30px 0 20px 15px; float: left; border-bottom: 1px solid #e1e1e1;} 
+	.panel-body .new_main ul.box_pd li:last-child{border-bottom: none;}
+	.panel-body .new_main ul.box_pd li .blog_img {width: 40%; margin-right: 2%; float: left;}
+	.panel-body .new_main ul.box_pd li .blog_img img {width: 95%;}
+	.panel-body .new_main ul.box_pd li .blog_detail {width: 58%; float: left;}
+	.panel-body .new_main ul.box_pd li .blog_detail .action_pd  {font-size: 16px; padding-bottom: 10px;}
+	.panel-body .new_main ul.box_pd li .blog_detail .action_pd a {color: #444444;}
+	.panel-body .new_main ul.box_pd li .blog_detail .action_pd a:hover {color: #197D07;}
+	.panel-body .new_main ul.box_pd li .blog_detail .price .price-old {text-decoration: line-through; color: #acacac;}
+	.panel-body .new_main ul.box_pd li .blog_detail .price span {color: red;}
+
+
+	/*.panel-body .new_main ul.demo4 { width: 100%;overflow: hidden;height: 390px!important;}
+	.panel-body .new_main ul.demo4 li {width: 100%; padding: 30px 0 20px 15px; float: left; border-bottom: 1px solid #e1e1e1;} 
+	.panel-body .new_main ul.demo4 li:last-child{border-bottom: none;}
+	.panel-body .new_main ul.demo4 li .blog_img {width: 40%; margin-right: 2%; float: left;}
+	.panel-body .new_main ul.demo4 li .blog_img img {width: 95%;}
+	.panel-body .new_main ul.demo4 li .blog_detail {width: 58%; float: left;}
+	.panel-body .new_main ul.demo4 li .blog_detail .action_pd  {font-size: 16px; padding-bottom: 10px;}
+	.panel-body .new_main ul.demo4 li .blog_detail .action_pd a {color: #444444;}
+	.panel-body .new_main ul.demo4 li .blog_detail .action_pd a:hover {color: #197D07;}
+	.panel-body .new_main ul.demo4 li .blog_detail .price .price-old {text-decoration: line-through; color: #acacac;}
+	.panel-body .new_main ul.demo4 li .blog_detail .price span {color: red;}
+
+
+	.panel-body .new_main ul.demo5 { width: 100%;overflow: hidden;height: 390px!important;}
+	.panel-body .new_main ul.demo5 li {width: 100%; padding: 30px 0 20px 15px; float: left; border-bottom: 1px solid #e1e1e1;} 
+	.panel-body .new_main ul.demo5 li:last-child{border-bottom: none;}
+	.panel-body .new_main ul.demo5 li .blog_img {width: 40%; margin-right: 2%; float: left;}
+	.panel-body .new_main ul.demo5 li .blog_img img {width: 95%;}
+	.panel-body .new_main ul.demo5 li .blog_detail {width: 58%; float: left;}
+	.panel-body .new_main ul.demo5 li .blog_detail .action_pd  {font-size: 16px; padding-bottom: 10px;}
+	.panel-body .new_main ul.demo5 li .blog_detail .action_pd a {color: #444444;}
+	.panel-body .new_main ul.demo5 li .blog_detail .action_pd a:hover {color: #197D07;}
+	.panel-body .new_main ul.demo5 li .blog_detail .price .price-old {text-decoration: line-through; color: #acacac;}
+	.panel-body .new_main ul.demo5 li .blog_detail .price span {color: red;}*/
+
+	
+
+	/*css banner-pd2*/
+	.banner_pd2{width: 100%;}

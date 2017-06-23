@@ -1,0 +1,16 @@
+
+
+ol, ul {
+    list-style: outside none none;
+}
+
+.tag_new { background: none repeat scroll 0 0 #fff; border: 1px solid #ccc; display: table; padding: 0.5em; width: 100%; }
+.tag_new li.tagAdd, .tag_new li.addedTag { float: left; margin-left: 0.25em; margin-right: 0.25em; }
+.tag_new li.addedTag { background: none repeat scroll 0 0 #019f86; border-radius: 2px; color: #fff; padding: 0.25em; }
+.tag_new input, li.addedTag { border: 1px solid transparent; border-radius: 2px; box-shadow: none;  display: block; padding: 0.5em; }
+.tag_new input:hover { border: 1px solid #000; }
+span.tagRemove { cursor: pointer; display: inline-block; padding-left: 0.5em; }
+span.tagRemove:hover {color: #222222; }
+P, H1 {text-align: center; }
+.tag_new p {color: #ccc; }
+h1 { color: #6b6b6b; font-size: 1.5em; }
